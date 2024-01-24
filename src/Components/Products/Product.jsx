@@ -3,21 +3,33 @@ import React from 'react'
 const product = [
     {
         id: 1,
+<<<<<<< HEAD
         imgUrl: "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/q/r/j/8-977419110012l908-42-xtep-moon-grey-foggy-grey-original-imagv4ff3dwfbkqd.jpeg?q=70",
+=======
+        imgUrl: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fa1a24e8-ff57-43b1-ab1a-b929ee5b175b/air-jordan-legacy-312-low-shoes-v3FcRT.png",
+>>>>>>> 6eafbf1 (Files Uplodaded)
         pTitle: "X-Tep",
         lTitle: "Running Shoes For Men  (Grey)"
 
     },
     {
         id: 2,
+<<<<<<< HEAD
         imgUrl: "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/s/0/v/8-9774191100126435-42-xtep-black-canvas-white-original-imagv4ffjhtttgcd.jpeg?q=70",
+=======
+        imgUrl: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/31ff59e2-89d0-4a83-839a-656618674782/air-jordan-1-mid-shoes-SQf7DM.png",
+>>>>>>> 6eafbf1 (Files Uplodaded)
         pTitle: "X-Tep",
         lTitle: "Running Shoes For Men  (Black)"
 
     },
     {
         id: 3,
+<<<<<<< HEAD
         imgUrl: "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/k/p/7/8-877319110019i545-42-xtep-white-lagoon-green-original-imagv42kawaw8hmz.jpeg?q=70",
+=======
+        imgUrl: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/65a5852e-2b51-4278-8e8a-8a1428e68491/jordan-stay-loyal-2-shoes-sDkgDk.png",
+>>>>>>> 6eafbf1 (Files Uplodaded)
         pTitle: "X-Tep",
         lTitle: "Running Shoes For Men  (White)"
 
