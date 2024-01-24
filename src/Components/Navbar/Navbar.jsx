@@ -19,9 +19,6 @@ const Navbar = () => {
 
                 <div className='flex gap-8 font-semibold ml-16'>
 
-
-                    <a className='hover:text-red-600 hover:scale-150 transition-all duration-500' href='#'>Home</a>
-
                     <a className='hover:text-red-600 hover:scale-150 transition-all duration-500'><Link to="/">Home</Link></a>
 
                     <div className="dropdown inline-block relative">
@@ -33,10 +30,6 @@ const Navbar = () => {
                         </div>
                     </div>
 
-                    <a className='hover:text-red-600 hover:scale-150 transition-all duration-500' href='#'>Service</a>
-                    <a className='hover:text-red-600 hover:scale-150 transition-all duration-500' href='#'>About</a>
-                    <a className='hover:text-red-600 hover:scale-150 transition-all duration-500' href='#'>Contect Us</a>
-
                     <a className='hover:text-red-600 hover:scale-150 transition-all duration-500' ><Link to> Service </Link></a>
                     <a className='hover:text-red-600 hover:scale-150 transition-all duration-500' ><Link to="/About"> About </Link></a>
                     <a className='hover:text-red-600 hover:scale-150 transition-all duration-500' ><Link to> Contect Us </Link></a>
@@ -46,8 +39,6 @@ const Navbar = () => {
                 </div>
 
                 <div>
-
-                    <img className='w-10 pb-2 scale-150 rotate-12 hover:scale-125 transition-all duration-300 -translate-x-32 ' src={l1} alt="" />
 
                     <img className='w-12 scale-125 cursor-pointer hover:scale-150 transition-all duration-300 -translate-x-32 ' src={l1} alt="" />
 

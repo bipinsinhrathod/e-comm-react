@@ -14,11 +14,7 @@ import Navbar from "./Components/Navbar/Navbar";
 function App() {
   return (
     <>
-      <Navbar/>
-      <MainBanner/>
-      <Favorites/>
-      <Banner1 />
-      <Slide />
+    
 
       <Navbar />
       <MainBanner />

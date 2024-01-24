@@ -15,9 +15,7 @@ const MainBanner = () => {
 
             <div className=' flex mt-10 gap-8'>
 
-              <button className='bg-white text-sm  font-semibold  text-black w-44 h-10 rounded-sm transition-all duration-300 hover:bg-black hover:text-white'> SHOP MEN</button>
               
-              <button className='bg-white text-sm font-semibold text-black w-44 h-10 rounded-sm transition-all duration-300 hover:bg-black hover:text-white' >SHOP WOMEN</button>
 
               <button className='bg-black text-sm  font-semibold  text-white w-44 h-10 rounded-sm transition-all duration-300 hover:bg-white hover:text-black'> SHOP MEN</button>
               
