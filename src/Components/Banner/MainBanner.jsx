@@ -9,17 +9,15 @@ const MainBanner = () => {
         <video autoPlay loop muted src={v1} style={{width:"90%",height:"80%"}}  className='object-cover -mt-8' ></video>
 
         <div className='absolute flex flex-col justify-center items-center gap-y-4'>
-            <h1 className='text-white font-bold text-7xl'>Take That, Weather</h1>
+            <h1 className='text-white font-bold text-7xl max-lg:text-4xl  '>Take That, Weather</h1>
 
-            <p className='text-white font-bold text-md'>Water-repellent Mizzles are cozy inside and extra grippy outside.</p>
+            <p className='text-white font-bold text-md max-sm:w-80 max-sm:text-center'>Water-repellent Mizzles are cozy inside and extra grippy outside.</p>
 
             <div className=' flex mt-10 gap-8'>
 
+              <button className='bg-black text-sm  font-semibold  text-white w-44 h-10 rounded-sm transition-all duration-300 hover:bg-white hover:text-black max-lg:w-28 max-lg:h-10 max-lg:text-[12px]'> SHOP MEN</button>
               
-
-              <button className='bg-black text-sm  font-semibold  text-white w-44 h-10 rounded-sm transition-all duration-300 hover:bg-white hover:text-black'> SHOP MEN</button>
-              
-              <button className='bg-black text-sm font-semibold text-white w-44 h-10 rounded-sm transition-all duration-300 hover:bg-white hover:text-black' >SHOP WOMEN</button>
+              <button className='bg-black text-sm font-semibold text-white w-44 h-10 rounded-sm transition-all duration-300 hover:bg-white hover:text-black max-lg:w-28 max-lg:h-10 max-lg:text-[12px]' >SHOP WOMEN</button>
 
             </div>
         </div>
