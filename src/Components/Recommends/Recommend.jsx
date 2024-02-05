@@ -1,14 +1,14 @@
 import React from 'react'
 import Men from './Men'
 import Women from './Women'
-import Kids from './Kids'
+import Kid from './Kid'
 
 const Recommend = () => {
   return (
     <>
       <Men/>
       <Women/>
-      <Kids/>
+      <Kid/>
     </>
   )
 }

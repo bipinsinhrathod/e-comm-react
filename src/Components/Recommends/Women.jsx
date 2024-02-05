@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 const Women = () => {
   return (
     <>
-      <div className="flex justify-center  items-center text-4xl font-bold pt-12 -mb-6 max-lg:text-3xl max-md:text-2xl">
+      <div className="flex justify-center  items-center bg-gray-200 text-4xl font-bold p-5 -mb-6 max-lg:text-3xl max-md:text-2xl">
         <h1>We Recommend For Women's</h1>
       </div>
 
@@ -187,7 +188,7 @@ const Women = () => {
           />
 
           <button className="bg-white text-black rounded w-20 h-8 absolute bottom-4 right-8 ">
-            View All
+          <Link to="/Womens">View All</Link>
           </button>
         </div>
       </div>

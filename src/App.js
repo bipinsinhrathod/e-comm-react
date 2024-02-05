@@ -5,7 +5,6 @@ import MainBanner from "./Components/Banner/MainBanner";
 import Slide from "./Components/Banner/Slide";
 import Favorites from "./Components/Favorites/Favorites";
 import Footer from "./Components/Footer/Footer";
-import NewsletterSubscription from "./Components/Footer/NewsletterSubscription";
 import Navbar from "./Components/Navbar/Navbar";
 import Recommend from "./Components/Recommends/Recommend";
 
@@ -22,7 +21,6 @@ function App() {
       <Banner1 />
       <Slide />
       <Recommend/>
-      <NewsletterSubscription/>
       <Footer /> 
 
     </>

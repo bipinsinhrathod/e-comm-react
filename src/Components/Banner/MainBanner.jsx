@@ -1,5 +1,8 @@
 import React from 'react'
 import v1 from "../../Assests/v1.mp4"
+import { Link } from 'react-router-dom'
+
+
 
 const MainBanner = () => {
   return (
@@ -15,9 +18,9 @@ const MainBanner = () => {
 
             <div className=' flex mt-10 gap-8'>
 
-              <button className='bg-black text-sm  font-semibold  text-white w-44 h-10 rounded-sm transition-all duration-300 hover:bg-white hover:text-black max-lg:w-28 max-lg:h-10 max-lg:text-[12px]'> SHOP MEN</button>
+              <button className='bg-black text-sm  font-semibold  text-white w-44 h-10 rounded-sm transition-all duration-300 hover:bg-white hover:text-black max-lg:w-28 max-lg:h-10 max-lg:text-[12px]'><Link to="/Mens">SHOP MEN</Link></button>
               
-              <button className='bg-black text-sm font-semibold text-white w-44 h-10 rounded-sm transition-all duration-300 hover:bg-white hover:text-black max-lg:w-28 max-lg:h-10 max-lg:text-[12px]' >SHOP WOMEN</button>
+            <button className='bg-black text-sm font-semibold text-white w-44 h-10 rounded-sm transition-all duration-300 hover:bg-white hover:text-black max-lg:w-28 max-lg:h-10 max-lg:text-[12px]'><Link to="/Womens">SHOP WOMEN</Link></button>
 
             </div>
         </div>
@@ -26,5 +29,14 @@ const MainBanner = () => {
     </>
   )
 }
+
+
+   
+
+
+
+
+
+
 
 export default MainBanner

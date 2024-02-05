@@ -41,22 +41,22 @@ const Navbar = () => {
               Product
             </button>
             <div className="dropdown-content absolute z-10 min-w-24  bg-slate-300 text-white hidden rounded  text-center">
-              <a className="" href="#">
-                Link 1
+              <a className="">
+              <Link to="/Mens">Men's</Link>
               </a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <a><Link to="/Womens">Women's</Link></a>
+              <a><Link to="/Kids">Kid's</Link></a>
             </div>
           </div>
 
           <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
-            <Link to> Service </Link>
+            <Link to="/Services"> Service </Link>
           </a>
           <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
             <Link to="/About"> About </Link>
           </a>
           <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
-            <Link to> Contect Us </Link>
+            <Link to="/Contectus"> Contect Us </Link>
           </a>
         </div>
 
@@ -70,7 +70,7 @@ const Navbar = () => {
 
         <div>
           <button className=" px-3 -translate-x-12 hover:text-red-600 py-1 pb-2 rounded-md font-semibold hover:scale-110 transition-all duration-300">
-            <span className="max-lg:hidden"> Login </span>{" "}
+            <span className="max-lg:hidden"><Link to="/SignUpOne">Log In</Link></span>{" "}
             <AccountCircleOutlined />
           </button>
           <button className=" px-5 -translate-x-16 hover:text-red-600 py-1  pb-2 rounded-md font-semibold hover:scale-110 transition-all duration-300">
