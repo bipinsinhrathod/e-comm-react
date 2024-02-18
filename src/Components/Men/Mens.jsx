@@ -1,14 +1,19 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import Men from "../Recommends/Men";
 import { FilterThree } from "./FilterThree";
+// import IMG from '../../Assests/Air-Jordan-Shoes-Images.jpg'
 
 const Mens = () => {
   return (
     <>
       <Navbar />
+{/* 
+      <div className= "">
+        <img className="ml-40 mt-10 mb-10 w-[80%]" src={IMG} alt="" />
+      </div> */}
 
       <div className="flex justify-center bg-gray-200  items-center text-4xl font-bold p-5 max-lg:text-3xl max-md:text-2xl">
         <h1>We Recommend For Men's</h1>
