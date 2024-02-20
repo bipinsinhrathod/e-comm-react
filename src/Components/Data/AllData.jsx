@@ -202,3 +202,195 @@ export const RecommendForKids1 = [
         Pprice : "2400"
     },
 ]
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// men all products Data 
+
+export const ManAllProducts =[
+    {
+        id : 1,
+        imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+        Ptitle : "Title",
+        Pltitle: "Ltitle",
+        Pprice : "2400"
+    },{
+        id : 2,
+        imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/90742ca5-8d8c-4292-9911-fde176b693db/dynamo-2-easyon-younger-shoes-tpCZq7.png",
+        Ptitle : "Title",
+        Pltitle: "Ltitle",
+        Pprice : "2400"
+    },{
+        id : 3,
+        imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+        Ptitle : "Title",
+        Pltitle: "Ltitle",
+        Pprice : "2400"
+    },{
+        id : 4,
+        imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+        Ptitle : "Title",
+        Pltitle: "Ltitle",
+        Pprice : "2400"
+    },{
+        id : 5,
+        imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+        Ptitle : "Title",
+        Pltitle: "Ltitle",
+        Pprice : "2400"
+    },{
+        id : 6,
+        imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+        Ptitle : "Title",
+        Pltitle: "Ltitle",
+        Pprice : "2400"
+    },{
+        id : 7,
+        imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+        Ptitle : "Title",
+        Pltitle: "Ltitle",
+        Pprice : "2400"
+    },{
+        id : 8,
+        imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+        Ptitle : "Title",
+        Pltitle: "Ltitle",
+        Pprice : "2400"
+    },{
+        id : 9,
+        imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+        Ptitle : "Title",
+        Pltitle: "Ltitle",
+        Pprice : "2400"
+    },{
+        id : 10,
+        imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+        Ptitle : "Title",
+        Pltitle: "Ltitle",
+        Pprice : "2400"
+    },{
+        id : 11,
+        imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+        Ptitle : "Title",
+        Pltitle: "Ltitle",
+        Pprice : "2400"
+    },{
+        id : 12,
+        imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+        Ptitle : "Title",
+        Pltitle: "Ltitle",
+        Pprice : "2400"
+    },{
+        id : 13,
+        imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+        Ptitle : "Title",
+        Pltitle: "Ltitle",
+        Pprice : "2400"
+    },{
+        id : 14,
+        imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+        Ptitle : "Title",
+        Pltitle: "Ltitle",
+        Pprice : "2400"
+    },{
+        id : 15,
+        imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+        Ptitle : "Title",
+        Pltitle: "Ltitle",
+        Pprice : "2400"
+    },
+]
+
+// export const ManAllProductsViewPage =[
+//     {
+//         id : 1,
+//         imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+//         Ptitle : "Title",
+//         Pltitle: "Ltitle",
+//         Pprice : "2400"
+//     },{
+//         id : 2,
+//         imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/90742ca5-8d8c-4292-9911-fde176b693db/dynamo-2-easyon-younger-shoes-tpCZq7.png",
+//         Ptitle : "Title",
+//         Pltitle: "Ltitle",
+//         Pprice : "2400"
+//     },{
+//         id : 3,
+//         imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+//         Ptitle : "Title",
+//         Pltitle: "Ltitle",
+//         Pprice : "2400"
+//     },{
+//         id : 4,
+//         imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+//         Ptitle : "Title",
+//         Pltitle: "Ltitle",
+//         Pprice : "2400"
+//     },{
+//         id : 5,
+//         imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+//         Ptitle : "Title",
+//         Pltitle: "Ltitle",
+//         Pprice : "2400"
+//     },{
+//         id : 6,
+//         imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+//         Ptitle : "Title",
+//         Pltitle: "Ltitle",
+//         Pprice : "2400"
+//     },{
+//         id : 7,
+//         imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+//         Ptitle : "Title",
+//         Pltitle: "Ltitle",
+//         Pprice : "2400"
+//     },{
+//         id : 8,
+//         imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+//         Ptitle : "Title",
+//         Pltitle: "Ltitle",
+//         Pprice : "2400"
+//     },{
+//         id : 9,
+//         imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+//         Ptitle : "Title",
+//         Pltitle: "Ltitle",
+//         Pprice : "2400"
+//     },{
+//         id : 10,
+//         imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+//         Ptitle : "Title",
+//         Pltitle: "Ltitle",
+//         Pprice : "2400"
+//     },{
+//         id : 11,
+//         imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+//         Ptitle : "Title",
+//         Pltitle: "Ltitle",
+//         Pprice : "2400"
+//     },{
+//         id : 12,
+//         imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+//         Ptitle : "Title",
+//         Pltitle: "Ltitle",
+//         Pprice : "2400"
+//     },{
+//         id : 13,
+//         imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+//         Ptitle : "Title",
+//         Pltitle: "Ltitle",
+//         Pprice : "2400"
+//     },{
+//         id : 14,
+//         imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+//         Ptitle : "Title",
+//         Pltitle: "Ltitle",
+//         Pprice : "2400"
+//     },{
+//         id : 15,
+//         imgUrl :"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+//         Ptitle : "Title",
+//         Pltitle: "Ltitle",
+//         Pprice : "2400"
+//     },
+// ]

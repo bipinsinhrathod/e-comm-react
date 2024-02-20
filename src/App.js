@@ -22,6 +22,7 @@ function App() {
       <Slide />
       <Recommend/>
       <Footer /> 
+    
 
     </>
   );

@@ -11,6 +11,7 @@ import Kids from './Components/Kids/Kids';
 import Womens from './Components/Women/Womens'
 import { SignUpOne } from './Components/Signup/SignUpOne';
 import { SignInThree } from './Components/Signup/SignInThree';
+import ProductOverviewTwo from './Components/Products/ProductOverviewTwo';
 
 
 const router = createBrowserRouter(
@@ -50,6 +51,10 @@ const router = createBrowserRouter(
     {
       path:"/signinthree",
       element:<SignInThree/>,
+    },
+    {
+      path:"/productoverviewtwo/:id",
+      element:<ProductOverviewTwo/>,
     }
   ]
 )
