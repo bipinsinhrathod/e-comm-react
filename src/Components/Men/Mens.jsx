@@ -17,7 +17,7 @@ const Mens = () => {
       </div>
       <FilterThree/>
       <Men />
-      <ProductOverviewTwo/>
+      {/* <ProductOverviewTwo/> */}
       <Footer />
     </>
   );

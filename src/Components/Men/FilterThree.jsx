@@ -1,5 +1,9 @@
 import React from "react";
-import { ExpandMore } from "@mui/icons-material";
+import {
+  ExpandMore,
+  ShoppingCart,
+  ShoppingCartCheckout,
+} from "@mui/icons-material";
 import { ManAllProducts } from "../Data/AllData";
 import { Link } from "react-router-dom";
 
@@ -141,9 +145,17 @@ export function FilterThree() {
                           <strike>₹4900</strike>
                         </span>
                       </p>
-                      <button className="border border-black w-60 h-10 bg-black  text-white rounded-md hover:bg-gray-400 hover:text-black mb-4">
-                        Add To Cart
-                      </button>
+                      <div className="flex flex-col justify-center relative ">
+                        <button className=" mx-auto text-sm font-bold w-[90%] bg-black h-[40px] my-2 flex items-center justify-center rounded-md cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-zinc-300 before:to-zinc-300 hover:text-black before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-md hover:before:left-0 text-[#fff]">
+                          Add to Cart
+                          <ShoppingCart className="mx-2 scale-90" />
+                        </button>
+
+                        <button className=" mx-auto text-sm font-bold w-[90%]  bg-zinc-300 h-[40px] my-1 flex items-center justify-center rounded-md cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-green-300 before:to-red-300 hover:text-black before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-md hover:before:left-0 text-[#000]">
+                          Buy Now
+                          <ShoppingCartCheckout className="mx-2 scale-90" />
+                        </button>
+                      </div>
                     </div>
                   </div>
                 );

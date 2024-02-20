@@ -2,11 +2,11 @@ import { KeyboardArrowDown, Star } from '@mui/icons-material';
 import React from 'react';
 import { ManAllProducts } from '../Data/AllData';
 import { useParams } from 'react-router-dom';
+import Navbar from '../Navbar/Navbar'
 
 export const ProductOverviewTwo = () => {
   const { id } = useParams();
   const product = ManAllProducts.find((item)=>item.id == id);
-  // console.log('Product ID:',id);
 
   // Check if product exists before attempting to destructure its properties
   if (!product) {
@@ -16,6 +16,11 @@ export const ProductOverviewTwo = () => {
   const { imgUrl, Ptitle, Pltitle, Pprice } = product;
 
   return (
+  <>
+  <Navbar/>
+  <div className="flex justify-center bg-gray-200  items-center text-4xl font-bold p-8 -mb-6 max-lg:text-3xl max-md:text-2xl">
+        <h1>Product's Detail's</h1>
+      </div>
     <section className="overflow-hidden">
       <div className="mx-auto max-w-5xl px-5 py-24">
         <div className="mx-auto flex flex-wrap items-center lg:w-4/5">
@@ -54,7 +59,7 @@ export const ProductOverviewTwo = () => {
               </div>
             </div>
             <div className="flex items-center justify-between">
-              <span className="title-font text-xl font-bold text-gray-900">₹{Pprice}</span>
+              <span className="title-font text-xl font-bold text-gray-900">₹{Pprice} <strike className="text-red-500 font-semibold text-lg">₹5000</strike></span>
               <button type="button" className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
                 Add to Cart
               </button>
@@ -62,8 +67,9 @@ export const ProductOverviewTwo = () => {
           </div>
         </div>
       </div>
-     
     </section>
+
+    </>
   );
 };
 

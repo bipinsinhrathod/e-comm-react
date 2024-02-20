@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex justify-between  py-2 relative text-black items-center bg-white ">
+      <div className="flex justify-between  py-2 sticky top-0 z-10 text-black items-center bg-white  ">
         <div className="flex gap-8 font-semibold ml-16 max-lg:hidden">
           <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
             <Link to="/">Home</Link>
