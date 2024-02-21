@@ -1,7 +1,8 @@
 import React from 'react'
 // import v1 from "../../Assests/v1.mp4"
 // import { Link } from 'react-router-dom'
-import Your from '../../Assests/Screenshot 2024-02-17 225724.png'
+// import Your from '../../Assests/Screenshot 2024-02-17 225724.png'
+import Shoes from '../../Assests/Shoes.png'
 
 
 
@@ -11,7 +12,7 @@ const MainBanner = () => {
     
     <div className='relative flex justify-center items-center bg-gray-100 ' style={{width:"100%",height:"95vh"}}>
         {/* <video autoPlay loop muted src={v1} style={{width:"90%",height:"80%"}}  className='object-cover -mt-8' ></video> */}
-        <img className='object-cover' style={{width:"100%",height:"100%"}} src={Your} alt="" />
+        <img className='object-cover' style={{width:"100%",height:"100%"}} src={Shoes} alt="" />
 
         <div className='absolute flex flex-col justify-center items-center gap-y-4'>
             {/* <h1 className='text-white font-bold text-7xl max-lg:text-4xl  '>Take That, Weather</h1> */}

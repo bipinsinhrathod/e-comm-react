@@ -41,12 +41,15 @@ const Women = () => {
           {RecommendForWomen2.map((item, index) => {
             return (
               <div className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden">
+              <Link to={`/productoverviewtwo/${item.id}`}>
+
                 <img
                   width={"190px"}
                   className="h-[200px] object-cover  hover:scale-105 transition-all duration-500"
                   src={item.imgUrl}
                   alt=""
                 />
+              </Link>
 
                 <div className="text-center">
                   <p className="text-xl font-semibold">{item.Ptitle}</p>

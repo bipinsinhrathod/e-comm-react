@@ -11,15 +11,18 @@ const Kids = () => {
 
       <div className="grid grid-cols-3 place-items-center m-12 max-xl:grid-cols-2 max-lg:grid-cols-1 max-lg:space-y-10">
         <div className="grid grid-cols-2 place-items-center gap-6 max-lg:gap-x-28 max-sm:gap-x-10">
-          {RecommendForKids.map((item, index) => {
+          {RecommendForKids.map((item) => {
             return (
               <div className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden ">
+              <Link to={`/productoverviewtwo/${item.id}`}>
+
                 <img
                   width={"190px"}
                   className="h-[200px] object-cover hover:scale-105 transition-all duration-500"
                   src={item.imgUrl}
                   alt=""
                 />
+              </Link>
 
                 <div className="text-center">
                   <p className="text-xl font-semibold">{item.Ptitle}</p>
@@ -55,12 +58,16 @@ const Kids = () => {
             RecommendForKids1.map((item, index) => {
             return (
               <div className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden">
+
+              <Link to={`/productoverviewtwo/${item.id}`}>
+
                 <img
                   width={"190px"}
                   className="h-[200px] object-cover  hover:scale-105 transition-all duration-500"
                   src={item.imgUrl}
                   alt=""
                 />
+              </Link>
 
                 <div className="text-center">
                   <p className="text-xl font-semibold">{item.Ptitle}</p>
