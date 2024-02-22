@@ -14,12 +14,15 @@ const Women = () => {
           {RecommendForWomen.map((item, index) => {
             return (
               <div className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden ">
+              <Link to={`/productoverviewtwo/${item.id}`}>
+
                 <img
                   width={"190px"}
                   className="h-[200px] object-cover hover:scale-105 transition-all duration-500"
                   src={item.imgUrl}
                   alt=""
                 />
+              </Link>
 
                 <div className="text-center">
                   <p className="text-xl font-semibold">{item.Ptitle}</p>
@@ -38,10 +41,10 @@ const Women = () => {
         </div>
 
         <div className="grid grid-cols-2 place-items-center gap-8 -ml-10 max-lg:gap-x-28 max-lg:ml-[2px] max-sm:gap-x-10">
-          {RecommendForWomen2.map((item, index) => {
+          {RecommendForWomen2.map((item) => {
             return (
               <div className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden">
-              <Link to={`/productoverviewtwo/${item.id}`}>
+              <Link to={`productoverviewtwo/${item.id}`}>
 
                 <img
                   width={"190px"}

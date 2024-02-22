@@ -30,7 +30,7 @@ const Men = () => {
                 key={index}
                 className=" border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden "
               >
-              {/* <Link to ={`/productoverviewone/${item.id}`}> */}
+              <Link to ={`/productoverviewtwo/${item.id}`}>
 
                 <img
                   width={"190px"}
@@ -38,7 +38,7 @@ const Men = () => {
                   src={item.imgUrl}
                   alt=""
                 />
-              {/* </Link> */}
+              </Link>
 
                 <div className="text-center">
                   <p className="text-xl font-semibold">{item.Ptitle}</p>

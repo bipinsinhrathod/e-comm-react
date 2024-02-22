@@ -4,6 +4,7 @@ import Footer from "../Footer/Footer";
 import Location from "../../Assests/google-maps.png"
 import Phone from "../../Assests/phone-call.png"
 import Mail from "../../Assests/gmail.png"
+import Contact from  "../../Assests/Contact.jpg"
 
 const Contectus = () => {
   return (
@@ -13,6 +14,19 @@ const Contectus = () => {
       <div className="grid place-content-center text-[40px] p-10 bg-gray-300">
         <h1>Contact Us</h1>
       </div>
+
+<div className="grid grid-cols-2">
+      <div className="mx-auto w-[90%]  ">
+        <img src={Contact} alt="" />
+      </div>
+
+<div className="flex  justify-center text-center items-center">
+  <p  className=" p-16 m-32 bg-gray-200 rounded-xl" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab excepturi ut asperiores magnam natus? Deleniti praesentium quam sapiente harum at distinctio provident sit eaque esse? Odit nisi eum unde commodi obcaecati. Sunt, ab! Maxime assumenda, a obcaecati veniam aliquid labore necessitatibus alias quod laborum laboriosam provident architecto magnam modi quidem! 
+  <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, non consequatur doloremque tenetur nam ipsa aliquam, enim cum aperiam culpa aut sequi asperiores voluptate consequuntur molestiae! Deserunt aliquid vero laboriosam reiciendis, ipsum sint iusto architecto quisquam? Nostrum consequuntur cumque, ea molestias qui quaerat eius necessitatibus ipsa dolores beatae, ipsum nam?</p>
+</div>
+
+
+</div>
 
       <div className="grid grid-cols-2 p-8 ">
         <div className=" w-full mt-8 ">

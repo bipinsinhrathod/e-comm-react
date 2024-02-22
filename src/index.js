@@ -12,7 +12,8 @@ import Womens from './Components/Women/Womens'
 import { SignUpOne } from './Components/Signup/SignUpOne';
 import { SignInThree } from './Components/Signup/SignInThree';
 import ProductOverviewTwo from './Components/Products/ProductOverviewTwo';
-import { ProductOverviewOne } from './Components/Products/ProductOverviewOne';
+// import { ProductOverviewOne } from './Components/Products/ProductOverviewOne';
+import Cart from './Components/Cart/Cart';
 
 
 const router = createBrowserRouter(
@@ -56,6 +57,10 @@ const router = createBrowserRouter(
     {
       path:"/productoverviewtwo/:id",
       element:<ProductOverviewTwo/>,
+    },
+    {
+      path:"/cart/:id",
+      element:<Cart/>,
     }
     // ,
     // {

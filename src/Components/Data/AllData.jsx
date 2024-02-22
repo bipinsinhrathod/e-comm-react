@@ -242,6 +242,13 @@ export const ManAllProducts = [
     Ptitle: "Title",
     Pltitle: "Ltitle",
     Pprice: "2400",
+    name: 'Nike Air Force 1 07 LV8',
+    href: '#',
+    price: '₹47,199',
+    originalPrice: '₹48,900',
+    discount: '5% Off',
+    color: 'Orange',
+    size: '8 UK',
   },
   {
     id: 26,

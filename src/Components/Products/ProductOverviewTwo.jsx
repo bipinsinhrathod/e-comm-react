@@ -3,10 +3,11 @@ import React from "react";
 import { ManAllProducts } from "../Data/AllData";
 import { useParams } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
-
+import { Link } from "react-router-dom";
 export const ProductOverviewTwo = () => {
-  const { id } = useParams();
-  const product = ManAllProducts.find((item) => item.id == id);
+  const { id  } = useParams();
+  // const products = gender === 'men' ? ManAllProducts : RecommendForWomen;
+  const product = ManAllProducts.find((item) =>item.id === parseInt(id));
 
   // Check if product exists before attempting to destructure its properties
   if (!product) {
@@ -26,7 +27,7 @@ export const ProductOverviewTwo = () => {
           <div className="mx-auto flex flex-wrap items-center lg:w-4/5">
             <img
               alt="Product"
-              className="h-64 w-full rounded object-cover lg:h-96 lg:w-1/2"
+              className="h-64 w-full rounded object-cover lg:h-96 lg:w-1/2  "
               src={imgUrl}
             />
             <div className="mt-6 w-full lg:mt-0 lg:w-1/2 lg:pl-10">
@@ -79,12 +80,15 @@ export const ProductOverviewTwo = () => {
                     ₹5000
                   </strike>
                 </span>
+                <Link  to={`/cart/${product.id}`}>
+
                 <button
                   type="button"
                   className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >
                   Add to Cart
                 </button>
+                </Link>
               </div>
             </div>
           </div>
