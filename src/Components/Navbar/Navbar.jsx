@@ -73,10 +73,13 @@ const Navbar = () => {
             <span className="max-lg:hidden"><Link to="/SignUpOne">Log In</Link></span>{" "}
             <AccountCircleOutlined />
           </button>
+          <Link to="/ProductOverView">
           <button className=" px-5 -translate-x-16 hover:text-red-600 py-1  pb-2 rounded-md font-semibold hover:scale-110 transition-all duration-300">
             <span className="max-lg:hidden"> Cart </span>{" "}
             <ShoppingCartOutlined />
           </button>
+
+          </Link>
 
           <button
             onClick={() => setIsOpen(!isOpen)}

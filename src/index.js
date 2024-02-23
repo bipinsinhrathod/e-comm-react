@@ -14,6 +14,7 @@ import { SignInThree } from './Components/Signup/SignInThree';
 import ProductOverviewTwo from './Components/Products/ProductOverviewTwo';
 // import { ProductOverviewOne } from './Components/Products/ProductOverviewOne';
 import Cart from './Components/Cart/Cart';
+import ProductOverView from './Components/Products/ProductOverView';
 
 
 const router = createBrowserRouter(
@@ -61,6 +62,10 @@ const router = createBrowserRouter(
     {
       path:"/cart/:id",
       element:<Cart/>,
+    },
+    {
+      path:"/productoverview",
+      element:<ProductOverView/>,
     }
     // ,
     // {
