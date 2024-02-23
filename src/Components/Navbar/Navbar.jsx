@@ -4,6 +4,7 @@ import {
   AccountCircleOutlined,
   Close,
   Menu,
+  KeyboardArrowDown,
 } from "@mui/icons-material";
 import l1 from "../../Assests/l1.png";
 
@@ -30,7 +31,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex justify-between  py-2 sticky top-0 z-10 text-black items-center bg-white  ">
+      <div className="flex justify-between shadow-xl  py-2 sticky top-0 z-10 text-black items-center bg-white  ">
         <div className="flex gap-8 font-semibold ml-16 max-lg:hidden">
           <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
             <Link to="/">Home</Link>
@@ -40,12 +41,17 @@ const Navbar = () => {
             <button className=" hover:text-red-600 hover:scale-125 transition-all duration-300">
               Product
             </button>
+
             <div className="dropdown-content absolute z-10 min-w-24  bg-slate-300 text-white hidden rounded  text-center">
               <a className="">
-              <Link to="/Mens">Men's</Link>
+                <Link to="/Mens">Men's</Link>
               </a>
-              <a><Link to="/Womens">Women's</Link></a>
-              <a><Link to="/Kids">Kid's</Link></a>
+              <a>
+                <Link to="/Womens">Women's</Link>
+              </a>
+              <a>
+                <Link to="/Kids">Kid's</Link>
+              </a>
             </div>
           </div>
 
@@ -70,16 +76,16 @@ const Navbar = () => {
 
         <div>
           <button className=" px-3 -translate-x-12 hover:text-red-600 py-1 pb-2 rounded-md font-semibold hover:scale-110 transition-all duration-300">
-            <span className="max-lg:hidden"><Link to="/SignUpOne">Log In</Link></span>{" "}
+            <span className="max-lg:hidden">
+              <Link to="/SignUpOne">Log In</Link>
+            </span>{" "}
             <AccountCircleOutlined />
           </button>
-          <Link to="/ProductOverView">
+
           <button className=" px-5 -translate-x-16 hover:text-red-600 py-1  pb-2 rounded-md font-semibold hover:scale-110 transition-all duration-300">
             <span className="max-lg:hidden"> Cart </span>{" "}
             <ShoppingCartOutlined />
           </button>
-
-          </Link>
 
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -97,7 +103,10 @@ const Navbar = () => {
               isOpen ? "block" : "hidden"
             } `}
           >
-            <button onClick={() => setIsOpen(!isOpen)} className="text-red-600 font-semibold text-2xl hover:text-blue-500 hover:scale-125 -mb-5 transition-all duration-500">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="text-red-600 font-semibold text-2xl hover:text-blue-500 hover:scale-125 -mb-5 transition-all duration-500"
+            >
               Close
             </button>
 

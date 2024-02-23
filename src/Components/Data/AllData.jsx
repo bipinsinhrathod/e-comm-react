@@ -239,7 +239,8 @@ export const ManAllProducts = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d7171a94-218e-4945-98cb-43715284f69c/air-jordan-1-low-se-shoes-WSkjPL.png",
     imgUrl4:
       "https://www.nike.com/in/t/air-jordan-1-low-se-shoes-WSkjPL/FQ7832-142",
-    Ptitle: "Title",
+    Ptitle: "Nike Air Force 1 07 LV8",
+    Pdetails: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil voluptatum alias fugiat, eveniet similique quam eius illo nobis quaerat ipsam aliquid nam mollitia laboriosam. Voluptate et corrupti exercitationem deserunt eveniet veli.",
     Pltitle: "Ltitle",
     Pprice: "2400",
     name: 'Nike Air Force 1 07 LV8',
@@ -260,8 +261,9 @@ export const ManAllProducts = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d7171a94-218e-4945-98cb-43715284f69c/air-jordan-1-low-se-shoes-WSkjPL.png",
     imgUrl4:
       "https://www.nike.com/in/t/air-jordan-1-low-g-golf-shoes-8bKbqs/DD9315-113",
-    Ptitle: "Title",
+    Ptitle: "Nike Air Force 1 07 LV8",
     Pltitle: "Ltitle",
+    Pdetails: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil voluptatum alias fugiat, eveniet similique quam eius illo nobis quaerat ipsam aliquid nam mollitia laboriosam. Voluptate et corrupti exercitationem deserunt eveniet veli.",
     Pprice: "2400",
   },
   {

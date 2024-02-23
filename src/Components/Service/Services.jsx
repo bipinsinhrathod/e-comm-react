@@ -1,27 +1,22 @@
-import React from 'react'
-import Footer from '../Footer/Footer'
-import Navbar from '../Navbar/Navbar'
-import NewsLetterFour from '../News/NewsLetterFour'
+import React from "react";
+import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
+import NewsLetterFour from "../News/NewsLetterFour";
 
 const Services = () => {
   return (
     <>
-    <Navbar/>
-      
+      <Navbar />
 
-      <div className='grid place-content-center text-[40px] p-10 bg-gray-300'>
+      <div className="grid place-content-center text-[40px] p-10 bg-gray-300">
         <h1>Our Services</h1>
       </div>
 
-      <NewsLetterFour/>
+      <NewsLetterFour />
 
-
-      
-
-
-      <Footer/>
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;

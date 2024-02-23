@@ -11,8 +11,6 @@ import Kids from './Components/Kids/Kids';
 import Womens from './Components/Women/Womens'
 import { SignUpOne } from './Components/Signup/SignUpOne';
 import { SignInThree } from './Components/Signup/SignInThree';
-import ProductOverviewTwo from './Components/Products/ProductOverviewTwo';
-// import { ProductOverviewOne } from './Components/Products/ProductOverviewOne';
 import Cart from './Components/Cart/Cart';
 import ProductOverView from './Components/Products/ProductOverView';
 
@@ -56,22 +54,19 @@ const router = createBrowserRouter(
       element:<SignInThree/>,
     },
     {
-      path:"/productoverviewtwo/:id",
-      element:<ProductOverviewTwo/>,
+      path:"/productoverview/:id",
+      element:<ProductOverView/>
     },
     {
       path:"/cart/:id",
       element:<Cart/>,
-    },
-    {
-      path:"/productoverview",
-      element:<ProductOverView/>,
     }
     // ,
     // {
-    //   path:"/productoverviewone/:id",
-    //   element:<ProductOverviewOne/>,
+    //   path:"/productoverview",
+    //   element:<ProductOverView/>
     // }
+    
   ]
 )
 

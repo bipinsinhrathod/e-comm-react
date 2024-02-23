@@ -1,7 +1,6 @@
-import { ArrowRight } from '@mui/icons-material'
-import React from 'react'
+import { ArrowRight } from "@mui/icons-material";
+import React from "react";
 import { Link } from "react-router-dom";
-
 
 export function SignInThree() {
   return (
@@ -26,7 +25,7 @@ export function SignInThree() {
             Sign in to your account
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600 ">
-            Don&apos;t have an account?{' '}
+            Don&apos;t have an account?{" "}
             <a className="font-semibold text-black transition-all duration-200 hover:underline">
               <Link to="/SignUpOne">Create a free account</Link>
             </a>
@@ -34,9 +33,12 @@ export function SignInThree() {
           <form action="#" method="POST" className="mt-8">
             <div className="space-y-5">
               <div>
-                <label htmlFor="" className="text-base font-medium text-gray-900">
-                  {' '}
-                  Email address{' '}
+                <label
+                  htmlFor=""
+                  className="text-base font-medium text-gray-900"
+                >
+                  {" "}
+                  Email address{" "}
                 </label>
                 <div className="mt-2">
                   <input
@@ -48,13 +50,20 @@ export function SignInThree() {
               </div>
               <div>
                 <div className="flex items-center justify-between">
-                  <label htmlFor="" className="text-base font-medium text-gray-900">
-                    {' '}
-                    Password{' '}
+                  <label
+                    htmlFor=""
+                    className="text-base font-medium text-gray-900"
+                  >
+                    {" "}
+                    Password{" "}
                   </label>
-                  <a href="#" title="" className="text-sm font-semibold text-black hover:underline">
-                    {' '}
-                    Forgot password?{' '}
+                  <a
+                    href="#"
+                    title=""
+                    className="text-sm font-semibold text-black hover:underline"
+                  >
+                    {" "}
+                    Forgot password?{" "}
                   </a>
                 </div>
                 <div className="mt-2">
@@ -112,5 +121,5 @@ export function SignInThree() {
         </div>
       </div>
     </section>
-  )
+  );
 }
