@@ -1,9 +1,10 @@
 import React from 'react'
-import {FavoriteBorderOutlined ,KeyboardArrowDown,ShoppingCartOutlined, Star} from '@mui/icons-material/';
+import {FavoriteBorderOutlined ,KeyboardArrowDown,ShoppingCartOutlined,Home, Star} from '@mui/icons-material/';
 import Navbar from '../Navbar/Navbar';
 // import { RecommendForMen } from '../Data/AllData';
 import { Link, useParams } from 'react-router-dom';
 import { ManAllProducts } from '../Data/AllData';
+import ProductsDetailsSlider from './ProductsDetailsSlider';
 
 
 
@@ -17,22 +18,24 @@ const ProductOverView = () => {
     return <div>No product found with the specified ID</div>;
   }
 
-  const { imgUrl, Ptitle, Pdetails, Pltitle, Pprice } = product;
+  const { imgUrl, Ptitle, Pdetails, Pprice } = product;
   return (
     <>
     <Navbar/>
-     <section className='grid grid-cols-2 items-center max-lg:grid-cols-1 '>
+     <section className='grid grid-cols-2 items-center max-lg:grid-cols-1'>
         
-        <div className='flex justify-end w-4/5 h-3/4 mx-auto max-xl:w-[90%] max-lg:w-[80%]'>
+        <div className='flex justify-end w-4/6 h-[90%]  mx-auto max-xl:w-[90%] max-lg:w-[80%]'>
 
-        <img  className='w-full object-cover rounded-xl'src={imgUrl} alt="" />
+        {/* <img  className='w-full object-cover rounded-xl'src={imgUrl} alt="" /> */}
+        <ProductsDetailsSlider/>
         </div>
         
         <div className='space-y-4 w-[95%]  max-xl:w-4/5  mx-auto '>
             <div className='flex space-x-4 font-semibold'>
-            <Link to="/">Home</Link>
+            <span><Home/></span>
+            <Link to="/" className='underline underline-offset-8'>Home</Link>
             <span>/</span>
-            <Link to="/mens">Men</Link>
+            <Link to="/mens" className='underline underline-offset-8'>Men</Link>
 
             </div>
             <p className='text-4xl font-bold max-md:text-3xl'>{Ptitle}</p>
@@ -71,14 +74,17 @@ const ProductOverView = () => {
                   </div> 
                   {/* <span className='text-lg' >40</span> */}
                   
-                <div ><p className='text-3xl font-bold max-sm:text-xl'>$50.96</p></div>
+                <div ><p className='text-3xl font-bold max-sm:text-xl'>₹{Pprice}/-</p></div>
             </div>
 
             <div className= 'space-y-3 max-sm:grid'>
             <span></span>
+            <Link to={`/addtocart/${id}`}>
+
             <button className='border-2 border-black font-bold w-44 h-11 rounded-xl pt-1 max-sm:w-full '>
                 <ShoppingCartOutlined className='mb-1 scale-90'/> Add to cart 
             </button>
+            </Link>
 
             <button className='bg-black w-44 h-11 rounded-xl pt-1 ml-5 text-white max-sm:ml-0 max-sm:w-full'>
                 <FavoriteBorderOutlined className='mb-1 scale-90'/> Add to wishlist 

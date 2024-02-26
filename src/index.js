@@ -13,6 +13,7 @@ import { SignUpOne } from './Components/Signup/SignUpOne';
 import { SignInThree } from './Components/Signup/SignInThree';
 import Cart from './Components/Cart/Cart';
 import ProductOverView from './Components/Products/ProductOverView';
+import AddToCart from './Components/Cart/AddToCart';
 
 
 const router = createBrowserRouter(
@@ -60,6 +61,10 @@ const router = createBrowserRouter(
     {
       path:"/cart/:id",
       element:<Cart/>,
+    },
+    {
+      path:"/addtocart/:id",
+      element:<AddToCart/>
     }
     // ,
     // {

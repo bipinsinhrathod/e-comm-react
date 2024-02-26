@@ -234,16 +234,18 @@ export const ManAllProducts = [
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d7171a94-218e-4945-98cb-43715284f69c/air-jordan-1-low-se-shoes-WSkjPL.png",
     imgUrl2:
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d7171a94-218e-4945-98cb-43715284f69c/air-jordan-1-low-se-shoes-WSkjPL.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d1a706c3-ddcc-4ddd-a0f2-668e276fb2ee/air-jordan-1-low-se-shoes-WSkjPL.png",
     imgUrl3:
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d7171a94-218e-4945-98cb-43715284f69c/air-jordan-1-low-se-shoes-WSkjPL.png",
-    imgUrl4:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f1805020-96e2-4911-8208-24455341f6ca/air-jordan-1-low-se-shoes-WSkjPL.png",
+    imgUrl5:
       "https://www.nike.com/in/t/air-jordan-1-low-se-shoes-WSkjPL/FQ7832-142",
-    Ptitle: "Nike Air Force 1 07 LV8",
+    imgUrl4:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b6ca85ab-8fdf-4498-ba7d-1c60af0cb8c4/air-jordan-1-low-se-shoes-WSkjPL.png",
+    Ptitle: "Nike Air Force 1",
     Pdetails: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil voluptatum alias fugiat, eveniet similique quam eius illo nobis quaerat ipsam aliquid nam mollitia laboriosam. Voluptate et corrupti exercitationem deserunt eveniet veli.",
     Pltitle: "Ltitle",
     Pprice: "2400",
-    name: 'Nike Air Force 1 07 LV8',
+    name: 'Nike Air Force1',
     href: '#',
     price: '₹47,199',
     originalPrice: '₹48,900',
@@ -256,10 +258,11 @@ export const ManAllProducts = [
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d084c3a4-cefe-42a1-bd83-3de4617916d3/air-jordan-1-low-g-golf-shoes-8bKbqs.png",
     imgUrl2:
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d7171a94-218e-4945-98cb-43715284f69c/air-jordan-1-low-se-shoes-WSkjPL.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b5a1691b-21c6-4ba7-ab1b-756e7a9b9741/air-jordan-1-low-g-golf-shoes-8bKbqs.png",
     imgUrl3:
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d7171a94-218e-4945-98cb-43715284f69c/air-jordan-1-low-se-shoes-WSkjPL.png",
-    imgUrl4:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2136ba94-4abb-4bef-9b13-194b241cfdf1/air-jordan-1-low-g-golf-shoes-8bKbqs.png",
+      imgUrl4:"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b650284f-5405-4abb-9c8e-c7428da0251c/air-jordan-1-low-g-golf-shoes-8bKbqs.png" ,
+    imgUrl5:
       "https://www.nike.com/in/t/air-jordan-1-low-g-golf-shoes-8bKbqs/DD9315-113",
     Ptitle: "Nike Air Force 1 07 LV8",
     Pltitle: "Ltitle",
