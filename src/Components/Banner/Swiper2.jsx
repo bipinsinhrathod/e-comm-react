@@ -8,7 +8,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
 // import required modules
-import { Autoplay, FreeMode, Pagination } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 
 const SwipeImg = [
     {
@@ -63,32 +63,63 @@ const SwipeImg = [
     
         pTitle: "Air Jorden 3 High",
         lTitle: "Jordern Shoes For Men  (Black/Red)",
+      },
+      {
+        id: 7,
+    
+        imgUrl:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/31ff59e2-89d0-4a83-839a-656618674782/air-jordan-1-mid-shoes-SQf7DM.png",
+    
+        pTitle: "Air Jorden 3 High",
+        lTitle: "Jordern Shoes For Men  (Black/Red)",
+      },
+      {
+        id: 8,
+    
+        imgUrl:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/31ff59e2-89d0-4a83-839a-656618674782/air-jordan-1-mid-shoes-SQf7DM.png",
+    
+        pTitle: "Air Jorden 3 High",
+        lTitle: "Jordern Shoes For Men  (Black/Red)",
+      },
+      {
+        id: 9,
+    
+        imgUrl:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/31ff59e2-89d0-4a83-839a-656618674782/air-jordan-1-mid-shoes-SQf7DM.png",
+    
+        pTitle: "Air Jorden 3 High",
+        lTitle: "Jordern Shoes For Men  (Black/Red)",
       }
 ];
 
 const Swiper2 = () => {
   return (
     <>
+    <div className="flex justify-center items-center font-bold text-4xl p-8">
+        <h1>New Arrivals</h1>
+      </div>
+    <div className="ml-14 mb-12">
       <Swiper
         slidesPerView={3}
         spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination ,Autoplay]}
-        // autoplay={{ delay: 1000 }}
-        className="mySwiper w-5/6"
+        // pagination={{
+        //   clickable: true,
+        // }}
+        modules={[ Autoplay]}
+        autoplay={{ delay: 1000 }}
+        className="mySwiper"
       >
       {
         SwipeImg.map((item)=>{
             return(
                 <>
                 <SwiperSlide className="">
-                    <div className="border border-black ">
-                        <div className="border border-black ">
-                            <img className="w-full h-[420px] object-cover" src={item.imgUrl} alt="" />
+                    <div className="border border-gray-400 transition-all duration-300 hover:shadow-2xl shadow-gray-300">
+                        <div className="overflow-hidden ">
+                            <img className="w-full h-[400px] object-cover hover:scale-105 transition-all duration-500" src={item.imgUrl} alt="" />
                         </div>
-                        <div className="flex flex-col flex-wrap items-center m-1 space-y-1 p-2  border border-red-700">
+                        <div className="flex flex-col flex-wrap items-center m-1 space-y-3 p-2 ">
                           <h1 className="font-bold text-2xl">{item.pTitle}</h1>  
                           <hr  className="h-[2px] bg-gray-300 w-[80%]" />
                           <p className="font-semibold text-md">{item.lTitle}</p>
@@ -101,6 +132,7 @@ const Swiper2 = () => {
         })
       }
       </Swiper>
+      </div>
     </>
   );
 };

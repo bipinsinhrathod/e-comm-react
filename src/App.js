@@ -3,8 +3,6 @@ import "./App.css";
 import Banner1 from "./Components/Banner/Banner1";
 import MainBanner from "./Components/Banner/MainBanner";
 import Swiper2 from "./Components/Banner/Swiper2";
-// import Slide from "./Components/Banner/Slide";
-import SwiperP from "./Components/Banner/SwiperP";
 import Favorites from "./Components/Favorites/Favorites";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
@@ -21,11 +19,8 @@ function App() {
       <MainBanner />
       <Favorites />
       <Banner1 />
-      {/* <Slide /> */}
-      <SwiperP/>
-      
-      <Recommend/>
       <Swiper2/>
+      <Recommend/>
       <Footer /> 
     
 
