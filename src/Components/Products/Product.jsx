@@ -1,14 +1,14 @@
 import React from "react";
-
-const product = [
+ 
+export const product = [
   {
     id: 1,
 
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fa1a24e8-ff57-43b1-ab1a-b929ee5b175b/air-jordan-legacy-312-low-shoes-v3FcRT.png",
 
-    pTitle: "X-Tep",
-    lTitle: "Running Shoes For Men  (Grey)",
+    pTitle: "Air Force 5",
+    lTitle: "Cesual Shoes For Men  (Grey)",
   },
   {
     id: 2,
@@ -16,8 +16,8 @@ const product = [
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/31ff59e2-89d0-4a83-839a-656618674782/air-jordan-1-mid-shoes-SQf7DM.png",
 
-    pTitle: "X-Tep",
-    lTitle: "Running Shoes For Men  (Black)",
+    pTitle: "Air Jorden 3 High",
+    lTitle: "Jordern Shoes For Men  (Black/Red)",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const product = [
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/65a5852e-2b51-4278-8e8a-8a1428e68491/jordan-stay-loyal-2-shoes-sDkgDk.png",
 
-    pTitle: "X-Tep",
+    pTitle: "Nike Air Run ",
     lTitle: "Running Shoes For Men  (White)",
   },
 ];

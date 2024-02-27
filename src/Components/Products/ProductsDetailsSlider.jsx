@@ -16,7 +16,7 @@ const SingleProductCarousal = () => {
     // console.log("items:", ManAllProducts);
 
     const product = ManAllProducts.find((item) => item.id === parseInt(id));
-    const { imgUrl, imgUrl2, imgUrl3, imgUrl4 } = product;
+    const { imgUrl, imgUrl2, imgUrl3, imgUrl4 ,imgUrl5 } = product;
     // const productPage = "Men";
 
     
@@ -52,6 +52,11 @@ const SingleProductCarousal = () => {
         <SwiperSlide>
           <div>
             <img src={imgUrl4} alt="" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div>
+            <img src={imgUrl5} alt="" />
           </div>
         </SwiperSlide>
       </Swiper>
