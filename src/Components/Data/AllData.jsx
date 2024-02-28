@@ -516,7 +516,7 @@ export const newArrival = [
   {
     id:40,
     imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0e261286-0c03-4b3e-ae4e-dba569d41548/air-jordan-legacy-312-low-shoes-v3FcRT.png", 
-    Ptitle : "Air Jordan Legacy 312 Low",
+    Ptitle : "Air Jordan Legacy Low",
     Pltitle : "Cesual Shoes"
 
   },
@@ -537,14 +537,14 @@ export const newArrival = [
   {
     id:43,
     imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/519b2b47-807e-4abf-917e-95ad69d219de/air-jordan-1-low-se-craft-shoes-lthN8v.png", 
-    Ptitle : "Air Jordan 1 Low SE Craft",
+    Ptitle : "Air Jordan Low SE Craft",
     Pltitle : "Lather Shoes"
 
   },
   {
     id:44,
     imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/rcrzrsqnkt7vgde4hhpo/air-jordan-legacy-312-low-shoes-6Vd4Xl.png", 
-    Ptitle : "Air Jordan Legacy 312 Low",
+    Ptitle : "Air Jordan Legacy Low",
     Pltitle : "Black & Red Shoes"
 
   },
@@ -558,7 +558,7 @@ export const newArrival = [
   {
     id:46,
     imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/24b857dd-1ed6-4a9a-b638-7d897a62819a/air-jordan-1-mid-se-craft-shoes-zmzNvk.png", 
-    Ptitle : "Air Jordan 1 Mid SE Craft",
+    Ptitle : "Air Jordan 1 Mid SE",
     Pltitle : "Air Jordan High"
 
   },
@@ -572,7 +572,7 @@ export const newArrival = [
   {
     id:48,
     imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/35a4d08c-d179-4f22-ad72-23c439a49064/air-jordan-xxxviii-low-pf-basketball-shoes-2lBnKn.png", 
-    Ptitle : "Air Jordan XXXVIII Low PF",
+    Ptitle : "Air Jordan XX Low PF",
     Pltitle : "Basketball Shoes"
 
   },

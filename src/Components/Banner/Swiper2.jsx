@@ -98,16 +98,30 @@ const SwipeImg = [
 const Swiper2 = () => {
   return (
     <>
-    <div className="flex justify-center items-center font-bold text-4xl p-8">
+    <div className="flex justify-center items-center font-bold text-4xl mt-10 underline underline-offset-[20px]">
         <h1>New Arrivals</h1>
       </div>
-    <div className="ml-14 mb-12">
+    <div className="m-12">
       <Swiper
-        slidesPerView={3}
+        slidesPerView={1}
         spaceBetween={30}
         // pagination={{
         //   clickable: true,
         // }}
+        breakpoints={{
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 30,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+          }}
         modules={[ Autoplay]}
         autoplay={{ delay: 1000 }}
         className="mySwiper"
@@ -121,7 +135,7 @@ const Swiper2 = () => {
                         <div className="overflow-hidden ">
                             <img className="w-full h-[400px] object-cover hover:scale-105 transition-all duration-500" src={item.imgUrl} alt="" />
                         </div>
-                        <div className="flex flex-col flex-wrap items-center m-1 space-y-3 p-2 ">
+                        <div className="flex flex-col flex-wrap items-center m-1 text-center space-y-3 p-2 ">
                           <h1 className="font-bold text-2xl">{item.Ptitle}</h1>  
                           <hr  className="h-[2px] bg-gray-300 w-[80%]" />
                           <p className="font-semibold text-md">{item.Pltitle}</p>
