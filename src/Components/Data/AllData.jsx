@@ -5,38 +5,65 @@ export const RecommendForMen = [
     id: 1,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cfe79686-a844-4a29-adb2-4442bf989c3c/jumpman-mvp-shoes-JV1HCs.png",
-    imgUrl2:
+    imgAll : "https://www.nike.com/in/t/jumpman-mvp-shoes-JV1HCs/DZ4475-026",
+    sliderImages: [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cfe79686-a844-4a29-adb2-4442bf989c3c/jumpman-mvp-shoes-JV1HCs.png",
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a202283a-0711-4512-a8e1-1865197ac0e5/jumpman-mvp-shoes-JV1HCs.png",
-    imgUrl3:
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9b3906d9-889e-4c7e-a49e-176af1ffa14c/jumpman-mvp-shoes-JV1HCs.png",
-    imgUrl4:
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9c9a340c-7d82-4aeb-8a66-632da72ef5a9/jumpman-mvp-shoes-JV1HCs.png",
-    Ptitle: "Title",
-    Pltitle: "Ltitle",
-    Pprice: "2400",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8d1eceb7-3ea1-495f-a753-76f84e63a433/jumpman-mvp-shoes-JV1HCs.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ad6c6e30-ea3d-4955-b96a-5c10441ac016/jumpman-mvp-shoes-JV1HCs.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8f097177-bd44-4185-bf0c-83309f433aad/jumpman-mvp-shoes-JV1HCs.png",
+    ],
+    Ptitle: "Nike Air Jorden",
+    Pltitle: "Men's Shoes",
+    Pprice: "9,595.00",
   },
   {
     id: 2,
     imgUrl:
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/adf49d6b-77cf-48d0-9ef6-bb9c4474ad1e/air-jordan-6-aqua-shoes-4m3b9d.png",
-    Ptitle: "Title",
-    Pltitle: "Ltitle",
-    Pprice: "2400",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b720303b-a097-4a59-98c8-fdedaf369ad6/air-jordan-1-mid-shoes-86f1ZW.png",
+    imgAll : "https://www.nike.com/in/t/air-jordan-1-mid-shoes-86f1ZW/BQ6472-140",
+    sliderImages: [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b720303b-a097-4a59-98c8-fdedaf369ad6/air-jordan-1-mid-shoes-86f1ZW.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/649a8ae6-f801-4cf6-a3e2-83949b667135/air-jordan-1-mid-shoes-86f1ZW.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/40b75b5a-7780-4d80-9707-e71adf2be7b0/air-jordan-1-mid-shoes-86f1ZW.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8bc3aaf6-20c9-438c-bceb-821969169387/air-jordan-1-mid-shoes-86f1ZW.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5177d011-0ae8-491a-bb20-5968ad07b90d/air-jordan-1-mid-shoes-86f1ZW.png"
+    ],
+    Ptitle: "Air Jordan 1 Mid",
+    Pltitle: "Men's Shoes",
+    Pprice: "11,495.00",
   },
   {
     id: 3,
     imgUrl:
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3f147f6b-32d0-4ba1-b73f-a083eed778ac/jordan-stadium-90-shoes-vnsjwJ.png",
-    Ptitle: "Title",
-    Pltitle: "Ltitle",
-    Pprice: "2400",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e29743c5-8bd6-4582-af8f-d6a573f02f8f/air-jordan-1-low-se-craft-shoes-lthN8v.png",
+    imgAll :"https://www.nike.com/in/t/air-jordan-1-low-se-craft-shoes-lthN8v/FD6819-300",
+    sliderImages :[
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e29743c5-8bd6-4582-af8f-d6a573f02f8f/air-jordan-1-low-se-craft-shoes-lthN8v.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/93c19ed7-9abb-4a72-94c3-e3f5d32b66e3/air-jordan-1-low-se-craft-shoes-lthN8v.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5e27b058-30af-454b-acb7-cc2fd72ebdf8/air-jordan-1-low-se-craft-shoes-lthN8v.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2280a733-20b7-43c7-98ba-b572e40b8352/air-jordan-1-low-se-craft-shoes-lthN8v.png",
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9e15f3bd-fe37-4a59-85a3-6215eb20bb73/air-jordan-1-low-se-craft-shoes-lthN8v.png",
+    ],
+    Ptitle: "Air Jordan Low SE",
+    Pltitle: "Men's Shoes",
+    Pprice: "10,295.00",
   },
   {
     id: 4,
     imgUrl:
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/094db03b-60e7-4566-bcbb-3b40c4d8148b/air-jordan-2-low-origins-shoes-DcLNNF.png",
-    Ptitle: "Title",
-    Pltitle: "Ltitle",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cc266d3e-dedf-4302-a32e-6a5190a7d0c4/jordan-stay-loyal-3-shoes-GNHN2X.png",
+    imgAll :"",
+    sliderImages : [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cc266d3e-dedf-4302-a32e-6a5190a7d0c4/jordan-stay-loyal-3-shoes-GNHN2X.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cca35a67-ce57-4473-ad7b-02f4d4b4fe0a/jordan-stay-loyal-3-shoes-GNHN2X.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8ad25384-e006-446a-83c1-13870ad93357/jordan-stay-loyal-3-shoes-GNHN2X.png ",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5376e720-2d98-4f3f-90e6-3dcde3f8cfca/jordan-stay-loyal-3-shoes-GNHN2X.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7233b000-380f-41af-a232-e823f3e1db54/jordan-stay-loyal-3-shoes-GNHN2X.png"
+
+    ],
+    Ptitle: "Air jorden PE",
+    Pltitle: "Men's Shoes",
     Pprice: "2400",
   },
 ];
@@ -45,34 +72,70 @@ export const RecommendForMen2 = [
   {
     id: 5,
     imgUrl:
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4a15f8ae-7d8d-48b5-b5d8-049b6b90c479/jordan-spizike-low-lunar-new-year-shoes-LNdJ8J.png",
-    Ptitle: "Title",
-    Pltitle: "Ltitle",
-    Pprice: "2400",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cf45e4d8-ecdf-4d1a-899f-98c32b34bcbb/air-jordan-1-low-shoes-459b4T.png",
+      imgAll :"https://www.nike.com/in/t/air-jordan-1-low-shoes-459b4T/DC0774-102",
+      sliderImages : [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cf45e4d8-ecdf-4d1a-899f-98c32b34bcbb/air-jordan-1-low-shoes-459b4T.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0996f76b-f59e-42a7-a353-005370cb9329/air-jordan-1-low-shoes-459b4T.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e87b3626-edd5-4315-bc52-e641edb7191c/air-jordan-1-low-shoes-459b4T.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9231a966-3be2-4efe-811e-5a2299f7530a/air-jordan-1-low-shoes-459b4T.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5e563b5a-db6d-4158-bc12-662021036ec5/air-jordan-1-low-shoes-459b4T.png"
+  
+      ],
+    Ptitle: "Air Jordan 1 Low",
+    Pltitle: "Men's Shoes",
+    Pprice: "8,295.00",
   },
   {
     id: 6,
     imgUrl:
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/078f8a58-eb37-4cdb-8387-dff25eef3a2d/jordan-5-retro-check-younger-shoes-j96nGH.png",
-    Ptitle: "Title",
-    Pltitle: "Ltitle",
-    Pprice: "2400",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/aeb0e25f-a6c0-4d9c-b1bf-409ef9586e1a/air-jordan-xxxviii-low-pf-basketball-shoes-2lBnKn.png",
+      imgAll :"https://www.nike.com/in/t/air-jordan-xxxviii-low-pf-basketball-shoes-2lBnKn/FD2325-004",
+      sliderImages : [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/aeb0e25f-a6c0-4d9c-b1bf-409ef9586e1a/air-jordan-xxxviii-low-pf-basketball-shoes-2lBnKn.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ce032076-a7ad-4257-af2a-1f8952c7ce8f/air-jordan-xxxviii-low-pf-basketball-shoes-2lBnKn.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7d88af34-66b8-46e2-9911-932bd722cccc/air-jordan-xxxviii-low-pf-basketball-shoes-2lBnKn.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/499d53d1-5269-440a-aed1-9e09d0777e52/air-jordan-xxxviii-low-pf-basketball-shoes-2lBnKn.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7377d71f-949e-4525-b038-cccb6949fead/air-jordan-xxxviii-low-pf-basketball-shoes-2lBnKn.png"
+  
+      ],
+    Ptitle: "Air Jordan Low PF",
+    Pltitle: "Men's Shoes",
+    Pprice: "7,295.00",
   },
   {
     id: 7,
     imgUrl:
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e29743c5-8bd6-4582-af8f-d6a573f02f8f/air-jordan-1-low-se-craft-shoes-lthN8v.png",
-    Ptitle: "Title",
-    Pltitle: "Ltitle",
-    Pprice: "2400",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f7ac79bc-de91-4f2a-a14d-4c069892cbc8/air-jordan-legacy-312-low-psg-shoes-SXP9BX.png",
+      imgAll :"https://www.nike.com/in/t/air-jordan-legacy-312-low-psg-shoes-SXP9BX/FZ4358-100",
+      sliderImages : [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f7ac79bc-de91-4f2a-a14d-4c069892cbc8/air-jordan-legacy-312-low-psg-shoes-SXP9BX.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/aa8325ac-9c89-4114-a072-ad0f7e4138ce/air-jordan-legacy-312-low-psg-shoes-SXP9BX.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f494a66b-4dcb-40d6-a616-d115773e8c6e/air-jordan-legacy-312-low-psg-shoes-SXP9BX.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0cf9e2de-ffb5-4d84-ba1b-7b61352de1a8/air-jordan-legacy-312-low-psg-shoes-SXP9BX.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fe838c04-e590-432d-b5b3-f618d3b8c45e/air-jordan-legacy-312-low-psg-shoes-SXP9BX.png"
+  
+      ],
+    Ptitle: "Air Legacy Low ",
+    Pltitle: "Men's Shoes",
+    Pprice: "12,795.00",
   },
   {
     id: 8,
     imgUrl:
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/739c02bb-db74-4b67-8121-a1bd2c34165c/jordan-max-aura-5-older-shoes-h0Tx6z.png",
-    Ptitle: "Title",
-    Pltitle: "Ltitle",
-    Pprice: "2400",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/69d39f9d-0ca2-4ec2-96b7-7134351c9e3f/luka-2-pf-basketball-shoes-LM9ScX.png",
+      imgAll :"https://www.nike.com/in/t/luka-2-pf-basketball-shoes-LM9ScX/DX9012-007",
+      sliderImages : [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/69d39f9d-0ca2-4ec2-96b7-7134351c9e3f/luka-2-pf-basketball-shoes-LM9ScX.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1b3f8799-0251-47aa-b5ce-846cde6a8326/luka-2-pf-basketball-shoes-LM9ScX.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ab2c94ac-512d-45db-acc7-f28e78743d6c/luka-2-pf-basketball-shoes-LM9ScX.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c13cfc47-0134-4565-80d2-5208da9b7e8a/luka-2-pf-basketball-shoes-LM9ScX.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d0ce50c6-c640-458c-9614-437100493343/luka-2-pf-basketball-shoes-LM9ScX.png"
+  
+      ],
+    Ptitle: "Luka 2 PF",
+    Pltitle: "Men's Shoes",
+    Pprice: "11,885.00",
   },
 ];
 
@@ -85,6 +148,13 @@ export const RecommendForWomen = [
     id: 9,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7468813b-6f08-4fa5-98b7-d5d5a8405cfe/air-max-90-shoes-r5WqV3.png",
+      imgAll :"",
+    sliderImages: [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7468813b-6f08-4fa5-98b7-d5d5a8405cfe/air-max-90-shoes-r5WqV3.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a202283a-0711-4512-a8e1-1865197ac0e5/jumpman-mvp-shoes-JV1HCs.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9b3906d9-889e-4c7e-a49e-176af1ffa14c/jumpman-mvp-shoes-JV1HCs.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9c9a340c-7d82-4aeb-8a66-632da72ef5a9/jumpman-mvp-shoes-JV1HCs.png",
+    ],
     Ptitle: "Title",
     Pltitle: "Ltitle",
     Pprice: "2400",
@@ -93,6 +163,15 @@ export const RecommendForWomen = [
     id: 10,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fece0006-9ac5-42cc-a109-6d2b439e9e36/dunk-low-se-shoes-FLw0k3.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Title",
     Pltitle: "Ltitle",
     Pprice: "2400",
@@ -101,6 +180,15 @@ export const RecommendForWomen = [
     id: 11,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/896aa14b-984a-42dd-9680-3988e8e9f564/tc-7900-shoes-S0G9Gn.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Title",
     Pltitle: "Ltitle",
     Pprice: "2400",
@@ -109,6 +197,15 @@ export const RecommendForWomen = [
     id: 12,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/20eb0013-4911-401d-928e-529aef6243f6/air-max-bliss-shoes-fxw3Mh.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Title",
     Pltitle: "Ltitle",
     Pprice: "2400",
@@ -120,6 +217,15 @@ export const RecommendForWomen2 = [
     id: 13,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d308bdb0-5f2a-4cba-9bec-c05a07083f7d/air-max-systm-shoes-KPKWF4.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Title",
     Pltitle: "Ltitle",
     Pprice: "2400",
@@ -128,6 +234,15 @@ export const RecommendForWomen2 = [
     id: 14,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/078f8a58-eb37-4cdb-8387-dff25eef3a2d/jordan-5-retro-check-younger-shoes-j96nGH.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Title",
     Pltitle: "Ltitle",
     Pprice: "2400",
@@ -136,6 +251,15 @@ export const RecommendForWomen2 = [
     id: 15,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ef0c9812-7497-45f0-9404-0c954b6320fb/air-max-90-se-shoes-gH7SC8.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Title",
     Pltitle: "Ltitle",
     Pprice: "2400",
@@ -144,6 +268,15 @@ export const RecommendForWomen2 = [
     id: 16,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/739c02bb-db74-4b67-8121-a1bd2c34165c/jordan-max-aura-5-older-shoes-h0Tx6z.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Title",
     Pltitle: "Ltitle",
     Pprice: "2400",
@@ -159,6 +292,15 @@ export const RecommendForKids = [
     id: 17,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/def14037-7275-4e1c-9ee5-c5f86d2350aa/jordan-nu-retro-1-low-older-shoes-tsJ6f8.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Title",
     Pltitle: "Ltitle",
     Pprice: "2400",
@@ -167,6 +309,15 @@ export const RecommendForKids = [
     id: 18,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/700361c5-2096-4597-b469-ebc508fbfb4f/court-borough-low-recraft-shoes-D0nqP8.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Title",
     Pltitle: "Ltitle",
     Pprice: "2400",
@@ -175,6 +326,15 @@ export const RecommendForKids = [
     id: 19,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/98936221-0fa9-42dc-99b1-7a5e7c809c45/luka-2-older-shoes-bHMwcm.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Title",
     Pltitle: "Ltitle",
     Pprice: "2400",
@@ -183,6 +343,15 @@ export const RecommendForKids = [
     id: 20,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/90742ca5-8d8c-4292-9911-fde176b693db/dynamo-2-easyon-younger-shoes-tpCZq7.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Title",
     Pltitle: "Ltitle",
     Pprice: "2400",
@@ -194,6 +363,15 @@ export const RecommendForKids1 = [
     id: 21,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6173972c-9fd1-42f6-9dab-7f2e985c357a/air-max-90-ltr-younger-shoes-3W4GLs.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Title",
     Pltitle: "Ltitle",
     Pprice: "2400",
@@ -202,6 +380,15 @@ export const RecommendForKids1 = [
     id: 22,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/078f8a58-eb37-4cdb-8387-dff25eef3a2d/jordan-5-retro-check-younger-shoes-j96nGH.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Title",
     Pltitle: "Ltitle",
     Pprice: "2400",
@@ -210,6 +397,15 @@ export const RecommendForKids1 = [
     id: 23,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/45a514f0-46e0-4838-bb88-6ac46968b0c5/infinity-flow-older-running-shoes-pJFp3m.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Title",
     Pltitle: "Ltitle",
     Pprice: "2400",
@@ -218,6 +414,15 @@ export const RecommendForKids1 = [
     id: 24,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/739c02bb-db74-4b67-8121-a1bd2c34165c/jordan-max-aura-5-older-shoes-h0Tx6z.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Title",
     Pltitle: "Ltitle",
     Pprice: "2400",
@@ -243,6 +448,15 @@ export const ManAllProducts = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fe9fcc24-b564-4a08-a330-d29ac688cb0e/air-jordan-1-low-se-shoes-WSkjPL.png",
     imgUrl6:
       "https://www.nike.com/in/t/air-jordan-1-low-se-shoes-WSkjPL/FQ7832-142",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Nike Air Force 1",
     Pdetails:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil voluptatum alias fugiat, eveniet similique quam eius illo nobis quaerat ipsam aliquid nam mollitia laboriosam. Voluptate et corrupti exercitationem deserunt eveniet veli.",
@@ -270,6 +484,14 @@ export const ManAllProducts = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/eacbf5cf-1ce8-4efa-9c43-b4c24ac49c66/air-jordan-1-low-g-golf-shoes-8bKbqs.png",
     imgUrl6:
       "https://www.nike.com/in/t/air-jordan-1-low-g-golf-shoes-8bKbqs/DD9315-113",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Nike Air Force 1 07 LV8",
     Pltitle: "Men's Shoes",
     Pdetails:
@@ -290,6 +512,14 @@ export const ManAllProducts = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4d31c0ca-b483-40fc-b924-a7d2c6a1eb40/air-jordan-1-low-se-craft-shoes-76v7Vm.png",
     imgUrl6:
       "https://www.nike.com/in/t/air-jordan-1-low-se-craft-shoes-76v7Vm/FD8635-001",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Air Jordan 1 Low SE",
     Pltitle: "Men's Shoes",
     Pprice: "10,295.00",
@@ -307,6 +537,14 @@ export const ManAllProducts = [
     imgUrl5:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1c1e5f55-99c2-4522-b398-2352e01ba566/air-force-1-07-shoes-WrLlWX.png",
     imgUrl6: "https://www.nike.com/in/t/air-force-1-07-shoes-WrLlWX/CW2288-111",
+    sliderImages : [
+      "",
+      "",
+      "",
+      "",
+      ""
+
+    ],
 
     Ptitle: "Nike Air Force 1 '07",
     Pltitle: "Men's Shoes",
@@ -316,7 +554,7 @@ export const ManAllProducts = [
     id: 29,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8757e64a-4fbc-44d3-96c1-8f9fb60345e0/air-force-1-07-lv8-shoes-lPdFPQ.png",
-      imgUrl2:
+    imgUrl2:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5a05182b-4160-41a6-89cd-5c47b6e917c4/air-force-1-07-lv8-shoes-lPdFPQ.png",
     imgUrl3:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/80f825de-20d1-4fb5-b153-428dc9c624fd/air-force-1-07-lv8-shoes-lPdFPQ.png",
@@ -326,6 +564,14 @@ export const ManAllProducts = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9336cfd0-d507-4e4c-9d24-a6e78edd39a9/air-force-1-07-lv8-shoes-lPdFPQ.png",
     imgUrl6:
       "https://www.nike.com/in/t/air-force-1-07-lv8-shoes-lPdFPQ/FJ4170-001",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Nike Air Force 1 '07 LV8",
     Pltitle: "Men's Shoes",
     Pprice: "10,795.00",
@@ -338,11 +584,19 @@ export const ManAllProducts = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/948c82b5-e1fe-45ec-87e3-30b1a4ed6af6/zoom-vomero-5-shoes-qZG4RJ.png",
     imgUrl3:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/84cffed1-831a-4525-bd02-ae8bac6d5a89/zoom-vomero-5-shoes-qZG4RJ.png",
-      imgUrl4:
+    imgUrl4:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f531c6ea-943f-47fe-97f8-67dc4b481db7/zoom-vomero-5-shoes-qZG4RJ.png",
     imgUrl5:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4ab2bf71-ca92-402d-9b62-ce1c2f95bdac/zoom-vomero-5-shoes-qZG4RJ.png",
     imgUrl6: "https://www.nike.com/in/t/zoom-vomero-5-shoes-qZG4RJ/BV1358-003",
+    sliderImages : [
+      "",
+      "",
+      "",
+      "",
+      ""
+
+    ],
     Ptitle: "Nike Zoom Vomero 5",
     Pltitle: "Men's Shoes",
     Pprice: "14,995.00",
@@ -355,12 +609,20 @@ export const ManAllProducts = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ecb24509-5326-4b13-ab72-b732ab2dcbf4/air-jordan-1-low-se-shoes-ZbxSRp.png",
     imgUrl3:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8fe311e3-0976-4256-b809-02cb2cd7e5d0/air-jordan-1-low-se-shoes-ZbxSRp.png",
-      imgUrl4:
+    imgUrl4:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6809cd58-8678-4235-8e46-57d8fe00123c/air-jordan-1-low-se-shoes-ZbxSRp.png",
     imgUrl5:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/70c48146-c1da-442c-a40c-e33c3b4ef819/air-jordan-1-low-se-shoes-ZbxSRp.png",
     imgUrl6:
       "https://www.nike.com/in/t/air-jordan-1-low-se-shoes-ZbxSRp/FZ5042-041",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Air Jordan 1 Low SE",
     Pltitle: "Men's Shoes",
     Pprice: "10,295.00",
@@ -373,12 +635,20 @@ export const ManAllProducts = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2c174f4a-f1e8-4591-ac0e-53ddd678229e/jordan-spizike-low-shoes-pBZk7c.png",
     imgUrl3:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4beff52c-5e36-414f-b268-a45fb62be14e/jordan-spizike-low-shoes-pBZk7c.png",
-      imgUrl4:
+    imgUrl4:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cd22fb5c-42dc-4163-9c0c-9d84b038e857/jordan-spizike-low-shoes-pBZk7c.png",
     imgUrl5:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4a5419d1-171b-425c-a6e6-ee844a9b02c6/jordan-spizike-low-shoes-pBZk7c.png",
     imgUrl6:
       "https://www.nike.com/in/t/jordan-spizike-low-shoes-pBZk7c/FQ1759-400",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Jordan Spizike Low",
     Pltitle: "Men's Shoes",
     Pprice: "14,995.00",
@@ -391,11 +661,19 @@ export const ManAllProducts = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/585af017-7418-48f6-beac-52558962d2ba/jumpman-mvp-shoes-JV1HCs.png",
     imgUrl3:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c7755573-5b1f-47ff-9b5a-cc8a88196696/jumpman-mvp-shoes-JV1HCs.png",
-      imgUrl4:
+    imgUrl4:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9e885989-b42e-45a5-b899-fd5e6303d9e8/jumpman-mvp-shoes-JV1HCs.png",
     imgUrl5:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/59835709-a4df-488b-b181-b23dcb4e48b2/jumpman-mvp-shoes-JV1HCs.png",
     imgUrl6: "https://www.nike.com/in/t/jumpman-mvp-shoes-JV1HCs/DZ4475-107",
+    sliderImages : [
+      "",
+      "",
+      "",
+      "",
+      ""
+
+    ],
     Ptitle: "Jumpman MVP",
     Pltitle: "Men's Shoes",
     Pprice: "15,295.00",
@@ -408,11 +686,19 @@ export const ManAllProducts = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/994fbe90-b60f-43cb-98bb-1075c8020eab/air-max-90-shoes-hkwJRC.png",
     imgUrl3:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2d845c3d-dfd6-48ec-a377-0cc052676e55/air-max-90-shoes-hkwJRC.png",
-      imgUrl4:
+    imgUrl4:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e908ccd9-b12b-41a1-8686-423b994c95f8/air-max-90-shoes-hkwJRC.png",
     imgUrl5:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8a7d8ac7-ba6c-4a03-b79f-7e9b334cc8e4/air-max-90-shoes-hkwJRC.png",
     imgUrl6: "https://www.nike.com/in/t/air-max-90-shoes-hkwJRC/FB9657-200",
+    sliderImages : [
+      "",
+      "",
+      "",
+      "",
+      ""
+
+    ],
     Ptitle: "Nike Air Max 90",
     Pltitle: "Men's Shoes",
     Pprice: "11,895.00",
@@ -425,11 +711,19 @@ export const ManAllProducts = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/48283655-fc35-43da-9136-30a228bce577/air-force-1-07-shoes-kZwncs.png",
     imgUrl3:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0762756a-ca94-4394-aed3-3875fd724a5e/air-force-1-07-shoes-kZwncs.png",
-      imgUrl4:
+    imgUrl4:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/95b59301-4147-4655-aaf9-717752ee310d/air-force-1-07-shoes-kZwncs.png",
     imgUrl5:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1902d463-9fb5-496b-af95-9bb4397e0076/air-force-1-07-shoes-kZwncs.png",
     imgUrl6: "https://www.nike.com/in/t/air-force-1-07-shoes-kZwncs/FZ3592-259",
+    sliderImages : [
+      "",
+      "",
+      "",
+      "",
+      ""
+
+    ],
     Ptitle: "Nike Air Force 1 '07",
     Pltitle: "Men's Shoes",
     Pprice: "9,695.00",
@@ -442,12 +736,20 @@ export const ManAllProducts = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/257558a0-3e4a-4768-bd24-6fb2efa9e10b/air-force-1-07-lv8-shoes-lPdFPQ.png",
     imgUrl3:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/83363ca8-b302-433a-876c-a068a37466dd/air-force-1-07-lv8-shoes-lPdFPQ.png",
-      imgUrl4:
+    imgUrl4:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e60b563a-b637-4c59-822b-fc5c785a3e93/air-force-1-07-lv8-shoes-lPdFPQ.png",
     imgUrl5:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/373295c2-beab-4c01-ac96-851506bece57/air-force-1-07-lv8-shoes-lPdFPQ.png",
     imgUrl6:
       "https://www.nike.com/in/t/air-force-1-07-lv8-shoes-lPdFPQ/FJ4170-002",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Nike Air Force 1 '07 LV8",
     Pltitle: "Men's Shoes",
     Pprice: " 10,795.00",
@@ -460,12 +762,20 @@ export const ManAllProducts = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fa1a24e8-ff57-43b1-ab1a-b929ee5b175b/air-jordan-legacy-312-low-shoes-v3FcRT.png",
     imgUrl3:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/23e52b65-f74b-4f8e-afe7-14a4dbd668cc/air-jordan-legacy-312-low-shoes-v3FcRT.png",
-      imgUrl4:
+    imgUrl4:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fd36c762-a33c-4e1d-bcf2-16f5335d229d/air-jordan-legacy-312-low-shoes-v3FcRT.png",
     imgUrl5:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/09aa172c-e8a6-4239-b5da-73d01709b04e/air-jordan-legacy-312-low-shoes-v3FcRT.png",
     imgUrl6:
       "https://www.nike.com/in/t/air-jordan-legacy-312-low-shoes-v3FcRT/HF0746-041",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Air Jordan Legacy 312 Low",
     Pltitle: "Men's Shoes",
     Pprice: " 14,195.00",
@@ -478,12 +788,20 @@ export const ManAllProducts = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/aa8325ac-9c89-4114-a072-ad0f7e4138ce/air-jordan-legacy-312-low-psg-shoes-SXP9BX.png",
     imgUrl3:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f494a66b-4dcb-40d6-a616-d115773e8c6e/air-jordan-legacy-312-low-psg-shoes-SXP9BX.png",
-      imgUrl4:
+    imgUrl4:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0cf9e2de-ffb5-4d84-ba1b-7b61352de1a8/air-jordan-legacy-312-low-psg-shoes-SXP9BX.png",
     imgUrl5:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fe838c04-e590-432d-b5b3-f618d3b8c45e/air-jordan-legacy-312-low-psg-shoes-SXP9BX.png",
     imgUrl6:
       "https://www.nike.com/in/t/air-jordan-legacy-312-low-psg-shoes-SXP9BX/FZ4358-100",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Air Jordan Legacy",
     Pltitle: "Men's Shoes",
     Pprice: "12,795.00",
@@ -496,99 +814,203 @@ export const ManAllProducts = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0c675ac2-d6f2-400e-84ba-1a18003608ac/air-jordan-1-mid-se-shoes-XkFP30.png",
     imgUrl3:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5e223378-63e2-4edf-ac98-1ed9a6728f74/air-jordan-1-mid-se-shoes-XkFP30.png",
-      imgUrl4:
+    imgUrl4:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/27c0d6f2-ccb8-4139-93c7-5a64b46c5773/air-jordan-1-mid-se-shoes-XkFP30.png",
     imgUrl5:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4a772a05-4f2d-483c-8639-8ba624d8055b/air-jordan-1-mid-se-shoes-XkFP30.png",
     imgUrl6:
       "https://www.nike.com/in/t/air-jordan-1-mid-se-shoes-XkFP30/FZ4359-200",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
     Ptitle: "Air Jordan 1 Mid SE",
     Pltitle: "Men's Shoes",
     Pprice: "13,995.00",
   },
 ];
 
+// New Arrival all data
 
-
-// New Arrival all data 
- 
 export const newArrival = [
   {
-    id:40,
-    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0e261286-0c03-4b3e-ae4e-dba569d41548/air-jordan-legacy-312-low-shoes-v3FcRT.png", 
-    Ptitle : "Air Jordan Legacy Low",
-    Pltitle : "Cesual Shoes"
-
+    id: 40,
+    imgUrl:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0e261286-0c03-4b3e-ae4e-dba569d41548/air-jordan-legacy-312-low-shoes-v3FcRT.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
+    Ptitle: "Air Jordan Legacy Low",
+    Pltitle: "Cesual Shoes",
   },
   {
-    id:41,
-    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/33e498ce-94d3-4f01-8b0d-79e03ba6ab1b/jordan-stay-loyal-3-shoes-GNHN2X.png", 
-    Ptitle : "Jordan Stay Loyal 3",
-    Pltitle : "Running Shoes"
-
+    id: 41,
+    imgUrl:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/33e498ce-94d3-4f01-8b0d-79e03ba6ab1b/jordan-stay-loyal-3-shoes-GNHN2X.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
+    Ptitle: "Jordan Stay Loyal 3",
+    Pltitle: "Running Shoes",
   },
   {
-    id:42,
-    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/92c9a4c2-6240-41e9-b3b6-06bebc42236e/air-jordan-1-mid-se-shoes-XkFP30.png", 
-    Ptitle : "Air Jordan 1 Mid SE",
-    Pltitle : "Jordan Shoes"
-
+    id: 42,
+    imgUrl:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/92c9a4c2-6240-41e9-b3b6-06bebc42236e/air-jordan-1-mid-se-shoes-XkFP30.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
+    Ptitle: "Air Jordan 1 Mid SE",
+    Pltitle: "Jordan Shoes",
   },
   {
-    id:43,
-    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/519b2b47-807e-4abf-917e-95ad69d219de/air-jordan-1-low-se-craft-shoes-lthN8v.png", 
-    Ptitle : "Air Jordan Low SE Craft",
-    Pltitle : "Lather Shoes"
-
+    id: 43,
+    imgUrl:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/519b2b47-807e-4abf-917e-95ad69d219de/air-jordan-1-low-se-craft-shoes-lthN8v.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
+    Ptitle: "Air Jordan Low SE Craft",
+    Pltitle: "Lather Shoes",
   },
   {
-    id:44,
-    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/rcrzrsqnkt7vgde4hhpo/air-jordan-legacy-312-low-shoes-6Vd4Xl.png", 
-    Ptitle : "Air Jordan Legacy Low",
-    Pltitle : "Black & Red Shoes"
-
+    id: 44,
+    imgUrl:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/rcrzrsqnkt7vgde4hhpo/air-jordan-legacy-312-low-shoes-6Vd4Xl.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
+    Ptitle: "Air Jordan Legacy Low",
+    Pltitle: "Black & Red Shoes",
   },
   {
-    id:45,
-    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/caf9e515-8dbd-4b38-8f9f-742cfe2d273d/luka-2-caves-pf-basketball-shoes-N6gmH9.png", 
-    Ptitle : "Luka 2 'Caves' PF",
-    Pltitle : "Gray Light Shoes"
-
+    id: 45,
+    imgUrl:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/caf9e515-8dbd-4b38-8f9f-742cfe2d273d/luka-2-caves-pf-basketball-shoes-N6gmH9.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
+    Ptitle: "Luka 2 'Caves' PF",
+    Pltitle: "Gray Light Shoes",
   },
   {
-    id:46,
-    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/24b857dd-1ed6-4a9a-b638-7d897a62819a/air-jordan-1-mid-se-craft-shoes-zmzNvk.png", 
-    Ptitle : "Air Jordan 1 Mid SE",
-    Pltitle : "Air Jordan High"
-
+    id: 46,
+    imgUrl:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/24b857dd-1ed6-4a9a-b638-7d897a62819a/air-jordan-1-mid-se-craft-shoes-zmzNvk.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
+    Ptitle: "Air Jordan 1 Mid SE",
+    Pltitle: "Air Jordan High",
   },
   {
-    id:47,
-    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/335e2357-debd-4e1d-b94b-6d2cda9a30cd/air-jordan-1-high-g-nrg-golf-shoes-t1kNjd.png", 
-    Ptitle : "Air Jordan 1 High G NRG",
-    Pltitle : "New Air Silver"
-
+    id: 47,
+    imgUrl:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/335e2357-debd-4e1d-b94b-6d2cda9a30cd/air-jordan-1-high-g-nrg-golf-shoes-t1kNjd.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
+    Ptitle: "Air Jordan 1 High G NRG",
+    Pltitle: "New Air Silver",
   },
   {
-    id:48,
-    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/35a4d08c-d179-4f22-ad72-23c439a49064/air-jordan-xxxviii-low-pf-basketball-shoes-2lBnKn.png", 
-    Ptitle : "Air Jordan XX Low PF",
-    Pltitle : "Basketball Shoes"
-
+    id: 48,
+    imgUrl:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/35a4d08c-d179-4f22-ad72-23c439a49064/air-jordan-xxxviii-low-pf-basketball-shoes-2lBnKn.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
+    Ptitle: "Air Jordan XX Low PF",
+    Pltitle: "Basketball Shoes",
   },
   {
-    id:49,
-    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d6481bad-d4cf-4ca6-a4eb-3809b3d1604f/tatum-1-home-team-pf-basketball-shoes-JbXhDt.png", 
-    Ptitle : "Tatum 1 'Home Team' PF",
-    Pltitle : "Basketball Shoes"
-
+    id: 49,
+    imgUrl:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d6481bad-d4cf-4ca6-a4eb-3809b3d1604f/tatum-1-home-team-pf-basketball-shoes-JbXhDt.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
+    Ptitle: "Tatum 1 'Home Team' PF",
+    Pltitle: "Basketball Shoes",
   },
   {
-    id:50,
-    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/66867bd3-ba99-453e-a189-2ebb9a982389/tatum-1-home-team-pf-basketball-shoes-JbXhDt.png", 
-    Ptitle : "Tatum 1 'Home Team' PF",
-    Pltitle : "Basketball Shoes"
-
-  }
-
-]
+    id: 50,
+    imgUrl:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/66867bd3-ba99-453e-a189-2ebb9a982389/tatum-1-home-team-pf-basketball-shoes-JbXhDt.png",
+      imgAll :"",
+      sliderImages : [
+        "",
+        "",
+        "",
+        "",
+        ""
+  
+      ],
+    Ptitle: "Tatum 1 'Home Team' PF",
+    Pltitle: "Basketball Shoes",
+  },
+];

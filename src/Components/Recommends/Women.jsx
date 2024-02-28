@@ -14,7 +14,7 @@ const Women = () => {
           {RecommendForWomen.map((item, index) => {
             return (
               <div className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden ">
-              <Link to={`/productoverviewtwo/${item.id}`}>
+              <Link to={`/productoverview/${item.id}?type=recomended-women`}>
 
                 <img
                   width={"190px"}
@@ -44,7 +44,7 @@ const Women = () => {
           {RecommendForWomen2.map((item) => {
             return (
               <div className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden">
-              <Link to={`productoverviewtwo/${item.id}`}>
+              <Link to={`productoverview/${item.id}`}>
 
                 <img
                   width={"190px"}

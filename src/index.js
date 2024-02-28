@@ -55,7 +55,7 @@ const router = createBrowserRouter(
       element:<SignInThree/>,
     },
     {
-      path:"/productoverview/:id",
+      path:"/productoverview/:id/",
       element:<ProductOverView/>
     },
     {

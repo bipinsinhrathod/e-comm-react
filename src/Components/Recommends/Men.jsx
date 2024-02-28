@@ -30,7 +30,7 @@ const Men = () => {
                 key={index}
                 className=" border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden "
               >
-              <Link to ={`/productoverviewtwo/${item.id}`}>
+              <Link to ={`/productoverview/${item.id}?type=recomended`}>
 
                 <img
                   width={"190px"}
@@ -59,13 +59,16 @@ const Men = () => {
         <div className="grid grid-cols-2 place-items-center ml-6 gap-8 max-xl:hidden max-lg:grid max-lg:gap-x-28 max-lg:ml-[4px] max-sm:gap-x-10 max-sm:ml-1">
           {RecommendForMen2.map((item, index) => {
             return (
+              <>
               <div className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden">
+              <Link to ={`/productoverview/${item.id}?type=recomended-men2`}>
                 <img
                   width={"190px"}
                   className="h-[200px] object-cover  hover:scale-105 transition-all duration-500"
                   src={item.imgUrl}
                   alt=""
                 />
+              </Link>
 
                 <div className="text-center">
                   <p className="text-xl font-semibold">{item.Ptitle}</p>
@@ -79,6 +82,7 @@ const Men = () => {
                   </p>
                 </div>
               </div>
+              </>
             );
           })}
         </div>
