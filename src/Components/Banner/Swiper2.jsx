@@ -10,6 +10,8 @@ import "swiper/css/pagination";
 // import required modules
 import { Autoplay } from "swiper/modules";
 
+import { newArrival } from "../Data/AllData";
+
 const SwipeImg = [
     {
         id: 1,
@@ -111,7 +113,7 @@ const Swiper2 = () => {
         className="mySwiper"
       >
       {
-        SwipeImg.map((item)=>{
+        newArrival.map((item)=>{
             return(
                 <>
                 <SwiperSlide className="">
@@ -120,9 +122,9 @@ const Swiper2 = () => {
                             <img className="w-full h-[400px] object-cover hover:scale-105 transition-all duration-500" src={item.imgUrl} alt="" />
                         </div>
                         <div className="flex flex-col flex-wrap items-center m-1 space-y-3 p-2 ">
-                          <h1 className="font-bold text-2xl">{item.pTitle}</h1>  
+                          <h1 className="font-bold text-2xl">{item.Ptitle}</h1>  
                           <hr  className="h-[2px] bg-gray-300 w-[80%]" />
-                          <p className="font-semibold text-md">{item.lTitle}</p>
+                          <p className="font-semibold text-md">{item.Pltitle}</p>
                         </div>
                     </div>
                 </SwiperSlide>

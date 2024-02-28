@@ -1,10 +1,16 @@
 import { ArrowRight } from '@mui/icons-material'
 import React from 'react'
 import { Link } from "react-router-dom";
+import Navbar from '../Navbar/Navbar';
 
 export function SignUpOne() {
   return (
-    <section>
+
+    <>
+      <Navbar/>
+
+
+    <section className='-mt-10'>
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="flex items-center justify-center px-4 py-10 sm:px-6 sm:py-16 lg:px-8 lg:py-24">
           <div className="xl:mx-auto xl:w-full xl:max-w-sm 2xl:max-w-md">
@@ -108,14 +114,16 @@ export function SignUpOne() {
             </div>
           </div>
         </div>
-        <div className="h-full w-full">
+        <div className="h-full w-full flex items-center">
           <img
-            className="mx-auto h-full w-full rounded-md object-cover"
+            className="mx-auto h-[80%] w-[90%] rounded-md object-cover"
             src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80"
             alt=""
           />
         </div>
       </div>
     </section>
+
+    </>
   )
 }

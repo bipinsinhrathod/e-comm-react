@@ -507,3 +507,88 @@ export const ManAllProducts = [
     Pprice: "13,995.00",
   },
 ];
+
+
+
+// New Arrival all data 
+ 
+export const newArrival = [
+  {
+    id:40,
+    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0e261286-0c03-4b3e-ae4e-dba569d41548/air-jordan-legacy-312-low-shoes-v3FcRT.png", 
+    Ptitle : "Air Jordan Legacy 312 Low",
+    Pltitle : "Cesual Shoes"
+
+  },
+  {
+    id:41,
+    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/33e498ce-94d3-4f01-8b0d-79e03ba6ab1b/jordan-stay-loyal-3-shoes-GNHN2X.png", 
+    Ptitle : "Jordan Stay Loyal 3",
+    Pltitle : "Running Shoes"
+
+  },
+  {
+    id:42,
+    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/92c9a4c2-6240-41e9-b3b6-06bebc42236e/air-jordan-1-mid-se-shoes-XkFP30.png", 
+    Ptitle : "Air Jordan 1 Mid SE",
+    Pltitle : "Jordan Shoes"
+
+  },
+  {
+    id:43,
+    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/519b2b47-807e-4abf-917e-95ad69d219de/air-jordan-1-low-se-craft-shoes-lthN8v.png", 
+    Ptitle : "Air Jordan 1 Low SE Craft",
+    Pltitle : "Lather Shoes"
+
+  },
+  {
+    id:44,
+    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/rcrzrsqnkt7vgde4hhpo/air-jordan-legacy-312-low-shoes-6Vd4Xl.png", 
+    Ptitle : "Air Jordan Legacy 312 Low",
+    Pltitle : "Black & Red Shoes"
+
+  },
+  {
+    id:45,
+    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/caf9e515-8dbd-4b38-8f9f-742cfe2d273d/luka-2-caves-pf-basketball-shoes-N6gmH9.png", 
+    Ptitle : "Luka 2 'Caves' PF",
+    Pltitle : "Gray Light Shoes"
+
+  },
+  {
+    id:46,
+    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/24b857dd-1ed6-4a9a-b638-7d897a62819a/air-jordan-1-mid-se-craft-shoes-zmzNvk.png", 
+    Ptitle : "Air Jordan 1 Mid SE Craft",
+    Pltitle : "Air Jordan High"
+
+  },
+  {
+    id:47,
+    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/335e2357-debd-4e1d-b94b-6d2cda9a30cd/air-jordan-1-high-g-nrg-golf-shoes-t1kNjd.png", 
+    Ptitle : "Air Jordan 1 High G NRG",
+    Pltitle : "New Air Silver"
+
+  },
+  {
+    id:48,
+    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/35a4d08c-d179-4f22-ad72-23c439a49064/air-jordan-xxxviii-low-pf-basketball-shoes-2lBnKn.png", 
+    Ptitle : "Air Jordan XXXVIII Low PF",
+    Pltitle : "Basketball Shoes"
+
+  },
+  {
+    id:49,
+    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d6481bad-d4cf-4ca6-a4eb-3809b3d1604f/tatum-1-home-team-pf-basketball-shoes-JbXhDt.png", 
+    Ptitle : "Tatum 1 'Home Team' PF",
+    Pltitle : "Basketball Shoes"
+
+  },
+  {
+    id:50,
+    imgUrl : "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/66867bd3-ba99-453e-a189-2ebb9a982389/tatum-1-home-team-pf-basketball-shoes-JbXhDt.png", 
+    Ptitle : "Tatum 1 'Home Team' PF",
+    Pltitle : "Basketball Shoes"
+
+  }
+
+]
