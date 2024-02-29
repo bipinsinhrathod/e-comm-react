@@ -4,7 +4,7 @@ import {
   ShoppingCart,
   ShoppingCartCheckout,
 } from "@mui/icons-material";
-import { ManAllProducts } from "../Data/AllData";
+import { WomenAllProducts } from "../Data/AllData";
 import { Link } from "react-router-dom";
 
 const filters = [
@@ -45,7 +45,7 @@ const filters = [
   },
 ];
 
-export function FilterThree() {
+ function Filter() {
   return (
     <section className="">
       <div className="mx-auto max-w-8xl px-2 py-10 lg:px-10  ">
@@ -119,13 +119,13 @@ export function FilterThree() {
           </div>
           <div className=" w-full rounded-lg px-2 lg:col-span-9 lg:h-[30%] overflow-y-scroll scroll-smooth max-h-[150vh]">
             <div className="grid grid-cols-3 place-items-center gap-4 max-lg:gap-x-28 max-sm:gap-x-10 max-sm:ml-1 max-lg:ml-[4px] ">
-              {ManAllProducts.map((item) => {
+              {WomenAllProducts.map((item) => {
                 return (
                   <div
                     key={item.id}
                     className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden "
                   >
-                    <Link to={`/productoverview/${item.id}?type=recomended-MenAll`}>
+                    <Link to={`/productoverview/${item.id}?type=recomended-WomenAll`}>
                       <div className="overflow-hidden">
                         <img
                           width={"400px"}
@@ -167,3 +167,5 @@ export function FilterThree() {
     </section>
   );
 }
+
+export default Filter

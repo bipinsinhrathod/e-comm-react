@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import Women from "../Recommends/Women";
-import { FilterThree } from "../Men/FilterThree";
+// import { FilterThree } from "../Men/FilterThree";
+import Filter from "./Filter"
 
 const Womens = () => {
   return (
@@ -13,8 +14,8 @@ const Womens = () => {
         <h1>All Product's For Women's</h1>
       </div>
 
-      <FilterThree />
-
+      {/* <FilterThree /> */}
+      <Filter/>
       <Women />
 
       <Footer />

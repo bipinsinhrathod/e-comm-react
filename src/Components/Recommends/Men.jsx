@@ -31,6 +31,7 @@ const Men = () => {
                 className=" border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden "
               >
               <Link to ={`/productoverview/${item.id}?type=recomended`}>
+                <div className="overflow-hidden">
 
                 <img
                   width={"190px"}
@@ -38,9 +39,10 @@ const Men = () => {
                   src={item.imgUrl}
                   alt=""
                 />
+                </div>
               </Link>
 
-                <div className="text-center">
+                <div className="text-center mt-1">
                   <p className="text-xl font-semibold">{item.Ptitle}</p>
                   <p className="text-sm">{item.Pltitle}</p>
                   <p className="text-lg font-semibold">
@@ -62,15 +64,19 @@ const Men = () => {
               <>
               <div className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden">
               <Link to ={`/productoverview/${item.id}?type=recomended-men2`}>
+
+              <div className="overflow-hidden">
+
                 <img
                   width={"190px"}
                   className="h-[200px] object-cover  hover:scale-105 transition-all duration-500"
                   src={item.imgUrl}
                   alt=""
                 />
+              </div>
               </Link>
 
-                <div className="text-center">
+                <div className="text-center mt-1">
                   <p className="text-xl font-semibold">{item.Ptitle}</p>
                   <p className="text-sm">{item.Pltitle}</p>
                   <p className="text-lg font-semibold">

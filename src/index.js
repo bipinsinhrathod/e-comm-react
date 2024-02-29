@@ -35,7 +35,7 @@ const router = createBrowserRouter(
       element:<Contectus/>,
     },
     {
-      path:"/mens",
+      path:"/mens/",
       element:<Mens/>,
     },
     {

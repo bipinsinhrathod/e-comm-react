@@ -26,7 +26,7 @@ const SingleProductCarousal = ({images}) => {
       {
         images?.map(image => (
           <SwiperSlide>
-          <div>
+          <div className="">
             <img className="w-full h-full object-cover" src={image} alt="" />
           </div>
         </SwiperSlide>

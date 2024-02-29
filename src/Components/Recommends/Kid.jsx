@@ -14,17 +14,18 @@ const Kids = () => {
           {RecommendForKids.map((item) => {
             return (
               <div className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden ">
-              <Link to={`/productoverviewtwo/${item.id}`}>
+                <div className="overflow-hidden">
+                  <Link to={`/productoverview/${item.id}?type=recomended-kid`}>
+                    <img
+                      width={"190px"}
+                      className="h-[200px] object-cover hover:scale-105 transition-all duration-500"
+                      src={item.imgUrl}
+                      alt=""
+                    />
+                  </Link>
+                </div>
 
-                <img
-                  width={"190px"}
-                  className="h-[200px] object-cover hover:scale-105 transition-all duration-500"
-                  src={item.imgUrl}
-                  alt=""
-                />
-              </Link>
-
-                <div className="text-center">
+                <div className="text-center mt-1">
                   <p className="text-xl font-semibold">{item.Ptitle}</p>
                   <p className="text-sm">{item.Pltitle}</p>
                   <p className="text-lg font-semibold">
@@ -54,22 +55,21 @@ const Kids = () => {
         </div>
 
         <div className="grid grid-cols-2 place-items-center gap-6 max-xl:hidden max-lg:grid max-lg:gap-x-28 max-sm:gap-x-10">
-          {
-            RecommendForKids1.map((item, index) => {
+          {RecommendForKids1.map((item, index) => {
             return (
               <div className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden">
+                <div className="overflow-hidden">
+                  <Link to={`/productoverview/${item.id}?type=recomended-kid2`}>
+                    <img
+                      width={"190px"}
+                      className="h-[200px] object-cover  hover:scale-105 transition-all duration-500"
+                      src={item.imgUrl}
+                      alt=""
+                    />
+                  </Link>
+                </div>
 
-              <Link to={`/productoverviewtwo/${item.id}`}>
-
-                <img
-                  width={"190px"}
-                  className="h-[200px] object-cover  hover:scale-105 transition-all duration-500"
-                  src={item.imgUrl}
-                  alt=""
-                />
-              </Link>
-
-                <div className="text-center">
+                <div className="text-center mt-1">
                   <p className="text-xl font-semibold">{item.Ptitle}</p>
                   <p className="text-sm">{item.Pltitle}</p>
                   <p className="text-lg font-semibold">
@@ -82,9 +82,7 @@ const Kids = () => {
                 </div>
               </div>
             );
-          })
-          }
-          
+          })}
         </div>
       </div>
     </>

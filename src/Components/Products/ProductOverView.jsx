@@ -11,7 +11,12 @@ import { Link, useParams, useLocation } from "react-router-dom";
 import {
   RecommendForMen,
   RecommendForWomen,
-  RecommendForMen2
+  RecommendForMen2,
+  RecommendForWomen2,
+  RecommendForKids,
+  RecommendForKids1,
+  ManAllProducts,
+  WomenAllProducts,
 } from "../Data/AllData";
 import ProductsDetailsSlider from "./ProductsDetailsSlider";
 
@@ -41,6 +46,36 @@ const ProductOverView = () => {
         );
         setProduct(forWomen);
         break;
+      case "recomended-women2":
+        const forWomen2 = RecommendForWomen2?.find(
+          (item) => item.id === parseInt(id)
+        );
+        setProduct(forWomen2);
+        break;
+      case "recomended-kid":
+        const forKid = RecommendForKids?.find(
+          (item) => item.id === parseInt(id)
+        );
+        setProduct(forKid);
+        break;
+      case "recomended-kid2":
+        const forKid2 = RecommendForKids1?.find(
+          (item) => item.id === parseInt(id)
+        );
+        setProduct(forKid2);
+        break;
+      case "recomended-MenAll":
+        const forMenAll = ManAllProducts?.find(
+          (item) => item.id === parseInt(id)
+        );
+        setProduct(forMenAll);
+        break;
+      case "recomended-WomenAll":
+        const forWomenAll = WomenAllProducts?.find(
+          (item) => item.id === parseInt(id)
+        );
+        setProduct(forWomenAll);
+        break;
       default:
         setProduct({});
     }
@@ -57,7 +92,7 @@ const ProductOverView = () => {
     <>
       <Navbar />
       <section className="grid grid-cols-2 items-center max-lg:grid-cols-1">
-        <div className="flex justify-end w-4/6 h-[90%]  mx-auto max-xl:w-[90%] max-lg:w-[80%]">
+        <div className="flex justify-end w-4/6 h-[90%] rounded-2xl overflow-hidden  mx-auto max-xl:w-[90%] max-lg:w-[80%]">
           {/* <img  className='w-full object-cover rounded-xl'src={imgUrl} alt="" /> */}
           <ProductsDetailsSlider images={product?.sliderImages} />
         </div>
@@ -138,8 +173,6 @@ const ProductOverView = () => {
           </div>
         </div>
       </section>
-
-      {/* <Men/>                      */}
     </>
   );
 };

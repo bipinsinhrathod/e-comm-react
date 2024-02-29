@@ -3,6 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import Men from "../Recommends/Men";
 import { FilterThree } from "./FilterThree";
+import { product } from "../Products/Product";
 
 const Mens = () => {
   return (
