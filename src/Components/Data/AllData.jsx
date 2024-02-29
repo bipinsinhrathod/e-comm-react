@@ -29,7 +29,7 @@ export const RecommendForMen = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8bc3aaf6-20c9-438c-bceb-821969169387/air-jordan-1-mid-shoes-86f1ZW.png",
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5177d011-0ae8-491a-bb20-5968ad07b90d/air-jordan-1-mid-shoes-86f1ZW.png"
     ],
-    Ptitle: "Air Jordan 1 Mid",
+    Ptitle: "Air Jordan Mid",
     Pltitle: "Men's Shoes",
     Pprice: "11,495.00",
   },
@@ -45,7 +45,7 @@ export const RecommendForMen = [
           "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2280a733-20b7-43c7-98ba-b572e40b8352/air-jordan-1-low-se-craft-shoes-lthN8v.png",
           "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9e15f3bd-fe37-4a59-85a3-6215eb20bb73/air-jordan-1-low-se-craft-shoes-lthN8v.png",
     ],
-    Ptitle: "Air Jordan Low SE",
+    Ptitle: "Air Jordan Low",
     Pltitle: "Men's Shoes",
     Pprice: "10,295.00",
   },
@@ -99,7 +99,7 @@ export const RecommendForMen2 = [
         "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7377d71f-949e-4525-b038-cccb6949fead/air-jordan-xxxviii-low-pf-basketball-shoes-2lBnKn.png"
   
       ],
-    Ptitle: "Air Jordan Low PF",
+    Ptitle: "Air Jordan PF",
     Pltitle: "Men's Shoes",
     Pprice: "7,295.00",
   },
@@ -156,7 +156,7 @@ export const RecommendForWomen = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1bc4d6b8-1fb8-4778-9b34-ea60cb35875d/gamma-force-shoes-MFG9vD.png",
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3f3e577a-93ab-4e37-8ad3-77502f3e848f/gamma-force-shoes-MFG9vD.png"
     ],
-    Ptitle: "Nike Gamma Force",
+    Ptitle: "Nike Force",
     Pltitle: "Women's Shoes",
     Pprice: "8,495.00",
   },
@@ -173,7 +173,7 @@ export const RecommendForWomen = [
         "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2a6ac4d5-386b-4858-85c2-19cf97ca3a1c/gamma-force-shoes-j4CpFl.png"
   
       ],
-    Ptitle: "Nike Gamma Force",
+    Ptitle: "Nike Force 2",
     Pltitle: "Women's Shoes",
     Pprice: "8,495.00",
   },

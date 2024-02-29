@@ -5,12 +5,12 @@ import { RecommendForWomen, RecommendForWomen2 } from "../Data/AllData";
 const Women = () => {
   return (
     <>
-      <div className="flex justify-center  items-center bg-gray-200 text-4xl font-bold p-5 -mb-6 max-lg:text-3xl max-md:text-2xl">
+      <div className="flex justify-center  items-center bg-gray-200 text-4xl font-bold p-5  -mb-6 max-lg:text-3xl max-md:text-2xl">
         <h1>We Recommend For Women's</h1>
       </div>
 
       <div className="grid grid-cols-3 place-items-center m-12 max-xl:grid-cols-2 max-lg:grid-cols-1 max-lg:space-y-10">
-        <div className="grid grid-cols-2 place-items-center gap-8 max-lg:gap-x-28 max-sm:gap-x-10">
+        <div className="grid grid-cols-2 place-items-center mr-4 gap-8 max-lg:gap-x-28 max-sm:gap-x-10 max-lg:m-0 ">
           {RecommendForWomen.map((item, index) => {
             return (
               <div className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden ">
@@ -43,7 +43,7 @@ const Women = () => {
           })}
         </div>
 
-        <div className="grid grid-cols-2 place-items-center gap-8 -ml-10 max-lg:gap-x-28 max-lg:ml-[2px] max-sm:gap-x-10">
+        <div className="grid grid-cols-2 place-items-center gap-8 max-lg:gap-x-28 max-lg:ml-[2px] max-sm:gap-x-10">
           {RecommendForWomen2.map((item) => {
             return (
               <div className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden">
@@ -74,7 +74,7 @@ const Women = () => {
           })}
         </div>
 
-        <div className=" relative border border-gray-200  w-[100%] hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden max-lg:w-[70%] max-sm:w-[90%] max-xl:hidden max-lg:grid">
+        <div className=" relative border border-gray-200  w-[100%] hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden max-lg:w-[70%] max-sm:w-[90%] max-[1440px]:ml-10 max-xl:ml-0 max-xl:hidden max-lg:grid">
           <img
             width={"100%"}
             className=" hover:scale-105 transition-all duration-500"

@@ -41,7 +41,7 @@ const Kids = () => {
           })}
         </div>
 
-        <div className=" relative border border-gray-200 w-[100%] hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden max-lg:w-[70%] max-sm:w-[90%]">
+        <div className=" relative border border-gray-200 w-[100%] max-[1350px]:w-[90%] max-xl:w-[100%] hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden max-lg:w-[70%] max-sm:w-[90%]">
           <img
             width={"100%"}
             className=" hover:scale-105 transition-all duration-500"
@@ -58,16 +58,16 @@ const Kids = () => {
           {RecommendForKids1.map((item, index) => {
             return (
               <div className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden">
-                <div className="overflow-hidden">
                   <Link to={`/productoverview/${item.id}?type=recomended-kid2`}>
+                <div className="overflow-hidden">
                     <img
                       width={"190px"}
                       className="h-[200px] object-cover  hover:scale-105 transition-all duration-500"
                       src={item.imgUrl}
                       alt=""
                     />
-                  </Link>
                 </div>
+                  </Link>
 
                 <div className="text-center mt-1">
                   <p className="text-xl font-semibold">{item.Ptitle}</p>

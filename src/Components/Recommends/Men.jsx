@@ -10,7 +10,7 @@ const Men = () => {
       </div>
 
       <div className="grid grid-cols-3 place-items-center m-12 max-xl:grid-cols-2 max-lg:grid-cols-1 max-lg:space-y-10">
-        <div className=" relative border border-gray-200  w-[100%] ml-10 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden max-lg:w-[70%] max-sm:w-[90%] max-lg:ml-[4px] ">
+        <div className=" relative border border-gray-200  w-[100%]  hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden max-lg:w-[70%] max-sm:w-[90%] max-lg:ml-[4px] ">
           <img
             width={"100%"}
             className=" hover:scale-105 transition-all duration-500"
@@ -23,7 +23,7 @@ const Men = () => {
           </button>
         </div>
 
-        <div className="grid grid-cols-2 place-items-center gap-8 ml-16 max-lg:gap-x-28 max-sm:gap-x-10 max-sm:ml-1 max-lg:ml-[4px]">
+        <div className="grid grid-cols-2 place-items-center gap-8 ml-6 max-lg:gap-x-28 max-sm:gap-x-10 max-sm:ml-1 max-lg:ml-[4px]">
           {RecommendForMen.map((item, index) => {
             return (
               <div
