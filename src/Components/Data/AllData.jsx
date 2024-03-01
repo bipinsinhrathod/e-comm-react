@@ -1,3 +1,17 @@
+// Main Banner img import 
+
+import B1 from "../../Assests/B1.png"
+import B2 from "../../Assests/B2.png"
+import B3 from "../../Assests/B3.png"
+import B4 from "../../Assests/B4.png"
+import B5 from "../../Assests/B5.png"
+import B6 from "../../Assests/B6.png"
+import B7 from "../../Assests/B7.png"
+import B8 from "../../Assests/B8.png"
+import B9 from "../../Assests/B9.png"
+import B10 from "../../Assests/B10.png"
+
+
 // Recommend for man Data
 
 export const RecommendForMen = [
@@ -1198,3 +1212,50 @@ export const WomenAllProducts = [
     Pprice: "13,995.00",
   },
 ];
+
+
+
+// Main Banner img Object 
+
+export const MainBannerImg = [
+  {
+    id:1,
+    img:B1
+  },
+  {
+    id:2,
+    img:B2
+  },
+  {
+    id:3,
+    img:B3
+  },
+  {
+    id:4,
+    img:B4
+  },
+  {
+    id:5,
+    img:B5
+  },
+  {
+    id:6,
+    img:B6
+  },
+  {
+    id:7,
+    img:B7
+  },
+  {
+    id:8,
+    img:B8
+  },
+  {
+    id:9,
+    img:B9
+  },
+  {
+    id:10,
+    img:B10
+  }
+]
