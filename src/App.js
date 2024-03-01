@@ -1,7 +1,6 @@
 
 import "./App.css";
 import Banner1 from "./Components/Banner/Banner1";
-// import MainBanner from "./Components/Banner/MainBanner";
 import NewBanner from "./Components/Banner/NewBanner";
 import Swiper2 from "./Components/Banner/Swiper2";
 import Favorites from "./Components/Favorites/Favorites";
@@ -18,7 +17,6 @@ function App() {
 
       <Navbar />
       <NewBanner/>
-      {/* <MainBanner /> */}
       <Favorites />
       <Banner1 />
       <Swiper2/>
