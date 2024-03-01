@@ -39,4 +39,6 @@ const NewBanner = () => {
   );
 };
 
+
+
 export default NewBanner;
