@@ -730,7 +730,7 @@ export const newArrival = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0e261286-0c03-4b3e-ae4e-dba569d41548/air-jordan-legacy-312-low-shoes-v3FcRT.png",
       imgAll :"",
       sliderImages : [
-        "",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0e261286-0c03-4b3e-ae4e-dba569d41548/air-jordan-legacy-312-low-shoes-v3FcRT.png",
         "",
         "",
         "",
