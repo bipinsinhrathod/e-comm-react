@@ -762,7 +762,7 @@ export const newArrival = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/92c9a4c2-6240-41e9-b3b6-06bebc42236e/air-jordan-1-mid-se-shoes-XkFP30.png",
       imgAll :"",
       sliderImages : [
-        "",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/92c9a4c2-6240-41e9-b3b6-06bebc42236e/air-jordan-1-mid-se-shoes-XkFP30.png",
         "",
         "",
         "",
