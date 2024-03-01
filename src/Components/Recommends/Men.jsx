@@ -72,7 +72,7 @@ const Men = () => {
                   className="h-[200px] object-cover  hover:scale-105 transition-all duration-500"
                   src={item.imgUrl}
                   alt=""
-                />
+                />  
               </div>
               </Link>
 
