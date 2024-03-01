@@ -679,14 +679,6 @@ export const ManAllProducts = [
     id: 38,
     imgUrl:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/12706ba5-4af0-49be-a296-dd8756b457ee/air-jordan-legacy-312-low-psg-shoes-SXP9BX.png",
-    imgUrl2:
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/aa8325ac-9c89-4114-a072-ad0f7e4138ce/air-jordan-legacy-312-low-psg-shoes-SXP9BX.png",
-    imgUrl3:
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f494a66b-4dcb-40d6-a616-d115773e8c6e/air-jordan-legacy-312-low-psg-shoes-SXP9BX.png",
-    imgUrl4:
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0cf9e2de-ffb5-4d84-ba1b-7b61352de1a8/air-jordan-legacy-312-low-psg-shoes-SXP9BX.png",
-    imgUrl5:
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fe838c04-e590-432d-b5b3-f618d3b8c45e/air-jordan-legacy-312-low-psg-shoes-SXP9BX.png",
     imgAll:
       "https://www.nike.com/in/t/air-jordan-legacy-312-low-psg-shoes-SXP9BX/FZ4358-100",
       sliderImages : [
