@@ -41,7 +41,7 @@ const Kids = () => {
           })}
         </div>
 
-        
+
 
         <div className=" relative border border-gray-200 w-[100%] max-[1350px]:w-[90%] max-xl:w-[100%] hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden max-lg:w-[70%] max-sm:w-[90%]">
           <img
@@ -90,5 +90,7 @@ const Kids = () => {
     </>
   );
 };
+
+
 
 export default Kids;
