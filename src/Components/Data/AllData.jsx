@@ -746,7 +746,7 @@ export const newArrival = [
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/33e498ce-94d3-4f01-8b0d-79e03ba6ab1b/jordan-stay-loyal-3-shoes-GNHN2X.png",
       imgAll :"",
       sliderImages : [
-        "",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/33e498ce-94d3-4f01-8b0d-79e03ba6ab1b/jordan-stay-loyal-3-shoes-GNHN2X.png",
         "",
         "",
         "",
