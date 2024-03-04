@@ -44,10 +44,10 @@ const Navbar = () => {
 
             <div className="dropdown-content absolute z-10 min-w-24  bg-slate-300 text-white hidden rounded  text-center">
               <a className="">
-                <Link to="/Mens">Men's</Link>
+                <Link to="/men">Men's</Link>
               </a>
               <a>
-                <Link to="/Womens">Women's</Link>
+                <Link to="/women">Women's</Link>
               </a>
               <a>
                 <Link to="/Kids">Kid's</Link>

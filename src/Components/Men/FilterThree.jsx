@@ -125,7 +125,7 @@ export function FilterThree() {
                     key={item.id}
                     className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden "
                   >
-                    <Link to={`/productoverview/${item.id}?type=recomended-MenAll`}>
+                    <Link to={`/productoverview/${item.id}?type=men`}>
                       <div className="overflow-hidden">
                         <img
                           width={"400px"}

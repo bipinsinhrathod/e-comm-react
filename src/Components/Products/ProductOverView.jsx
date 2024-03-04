@@ -24,6 +24,7 @@ const ProductOverView = () => {
   const { id } = useParams();
   const { search } = useLocation();
   const [product, setProduct] = useState({});
+  const [section, setSection] = useState()
   const productType = new URLSearchParams(search).get("type");
 
   useEffect(() => {
@@ -31,20 +32,23 @@ const ProductOverView = () => {
       case "recomended":
         const forMen = RecommendForMen?.find(
           (item) => item.id === parseInt(id)
-        );
-        setProduct(forMen);
+          );
+          setProduct(forMen);
+          setSection("Men");
         break;
       case "recomended-men2":
         const forMen2 = RecommendForMen2?.find(
           (item) => item.id === parseInt(id)
         );
         setProduct(forMen2);
+        setSection("Men")
         break;
       case "recomended-women":
         const forWomen = RecommendForWomen?.find(
           (item) => item.id === parseInt(id)
         );
         setProduct(forWomen);
+        setSection("Women")
         break;
       case "recomended-women2":
         const forWomen2 = RecommendForWomen2?.find(
@@ -64,17 +68,19 @@ const ProductOverView = () => {
         );
         setProduct(forKid2);
         break;
-      case "recomended-MenAll":
+      case "men":
         const forMenAll = ManAllProducts?.find(
           (item) => item.id === parseInt(id)
         );
-        setProduct(forMenAll);
+        setProduct(forMenAll); 
+        setSection("Men")
         break;
-      case "recomended-WomenAll":
+      case "women":
         const forWomenAll = WomenAllProducts?.find(
           (item) => item.id === parseInt(id)
         );
         setProduct(forWomenAll);
+        setSection("Women")
         break;
       default:
         setProduct({});
@@ -106,9 +112,14 @@ const ProductOverView = () => {
               Home
             </Link>
             <span>/</span>
-            <Link to="/mens" className="underline underline-offset-8">
-              Men
+            <Link to={`/${section}`}  className="underline underline-offset-8">
+              {section}
             </Link>
+            <span>/</span>
+            <p className="underline underline-offset-8">
+              
+            </p>
+
           </div>
           <p className="text-4xl font-bold max-md:text-3xl">
             {product?.Ptitle}

@@ -83,7 +83,7 @@ const Women = () => {
           />
 
           <button className="bg-white text-black rounded w-20 h-8 absolute bottom-4 right-8 ">
-            <Link to="/Womens">View All</Link>
+            <Link to="/women">View All</Link>
           </button>
         </div>
       </div>
