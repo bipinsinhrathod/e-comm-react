@@ -19,7 +19,7 @@ const Men = () => {
           />
 
           <button className="bg-white text-black rounded w-20 h-8 absolute bottom-4 right-8 ">
-            <Link to="/Mens">View All</Link>
+            <Link to="/men">View All</Link>
           </button>
         </div>
 

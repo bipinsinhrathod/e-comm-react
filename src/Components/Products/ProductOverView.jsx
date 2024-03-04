@@ -55,18 +55,21 @@ const ProductOverView = () => {
           (item) => item.id === parseInt(id)
         );
         setProduct(forWomen2);
+        setSection("Women")
         break;
       case "recomended-kid":
         const forKid = RecommendForKids?.find(
           (item) => item.id === parseInt(id)
         );
         setProduct(forKid);
+        setSection("Kid")
         break;
       case "recomended-kid2":
         const forKid2 = RecommendForKids1?.find(
           (item) => item.id === parseInt(id)
         );
         setProduct(forKid2);
+        setSection("Kid")
         break;
       case "men":
         const forMenAll = ManAllProducts?.find(
