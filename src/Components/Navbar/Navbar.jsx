@@ -1,22 +1,16 @@
 import React, { useState, useEffect, useRef } from "react";
-// import {
-//   ShoppingCartOutlined,
-//   AccountCircleOutlined,
-//   Close,
-//   Menu,
-//   KeyboardArrowDown,
-// } from "@mui/icons-material";
-// import l1 from "../../Assests/l1.png";
-// import logo from "../../Assests/Logo1.png"
-// import logo2 from "../../Assests/Logo2.png"
-// import logo3 from "../../Assests/logo3.png"
-// import logo4 from "../../Assests/logo4.png"
-
-import logo from "../../Assests/logo4.png"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBagShopping, faBars, faHeart, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import logo from "../../Assests/logo4.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBagShopping,
+  faBars,
+  faHeart,
+  faMagnifyingGlass,
+  faUser,
+} from "@fortawesome/free-solid-svg-icons";
 
 import { Link } from "react-router-dom";
+import Offer from "./Offer";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,150 +33,133 @@ const Navbar = () => {
 
   return (
     <>
-      {/* <div className="flex justify-between shadow-xl  py-2 sticky top-0 z-10 text-black items-center bg-white  ">
-        <div className="flex gap-8 font-semibold ml-16 max-lg:hidden">
-          <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
-            <Link to="/">Home</Link>
-          </a>
+      <Offer />
 
-          <div className="dropdown inline-block relative">
-            <button className=" hover:text-red-600 hover:scale-125 transition-all duration-300">
-              Product
-            </button>
-
-            <div className="dropdown-content absolute z-10 min-w-24  bg-slate-300 text-white hidden rounded  text-center">
-              <a className="">
-                <Link to="/men">Men's</Link>
-              </a>
-              <a>
-                <Link to="/women">Women's</Link>
-              </a>
-              <a>
-                <Link to="/Kids">Kid's</Link>
-              </a>
-            </div>
-          </div>
-
-          <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
-            <Link to="/Services"> Service </Link>
-          </a>
-          <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
-            <Link to="/about"> About </Link>
-          </a>
-          <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
-            <Link to="/Contectus"> Contect Us </Link>
-          </a>
-        </div>
-
-        <div>
+      <section className="flex justify-evenly items-center shadow-xl border h-16 max-lg:justify-between max-lg:px-8 max-sm:px-10 sticky top-0 z-10 bg-white">
+        <div className="flex items-center">
           <img
-            className="w-12 scale-125 cursor-pointer hover:scale-150 transition-all duration-300 -translate-x-32 max-lg:translate-x-32 "
-            src={logo4}
+            className="w-16 scale-125 cursor-pointer hover:scale-150 transition-all duration-300  "
+            src={logo}
             alt=""
           />
         </div>
-
-        <div>
-          <button className=" px-3 -translate-x-12 hover:text-red-600 py-1 pb-2 rounded-md font-semibold hover:scale-110 transition-all duration-300">
-            <span className="max-lg:hidden">
-              <Link to="/SignUpOne">Log In</Link>
-            </span>{" "}
-            <AccountCircleOutlined />
-          </button>
-
-          <button className=" px-5 -translate-x-16 hover:text-red-600 py-1  pb-2 rounded-md font-semibold hover:scale-110 transition-all duration-300">
-            <span className="max-lg:hidden"> Cart </span>{" "}
-            <ShoppingCartOutlined />
-          </button>
-
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="-translate-x-[70px] hover:text-red-600 hover:scale-110 transition-all duration-300 hidden max-lg:inline-block"
+        <div className="flex space-x-8  ml-60 max-xl:ml-0 max-lg:hidden ">
+          <Link
+            to="/"
+            className="font-bold text-red-700 hover:text-black  hover:underline underline-offset-4 hover:-translate-y-1 transition-all duration-300"
+            href=""
           >
-            <Menu />
-          </button>
-        </div>
-      </div> */}
-
-      
-      <section className='flex justify-evenly items-center shadow-xl border h-16 max-lg:justify-between max-lg:px-20'>
-        <div className='flex  items-center'>
-            <img className='w-12 scale-125 cursor-pointer hover:scale-150 transition-all duration-300  ' src={logo} alt="" />
-        </div>
-        <div className='flex space-x-10  ml-60 max-xl:ml-0 max-lg:hidden '>
-            <Link to="/" className='font-bold text-red-700' href="">Home</Link>
-            <Link to="/men" className='font-semibold' href="">Men</Link>
-            <Link to="/women" className='font-semibold' href="">Women</Link>
-            <Link to="/Kids" className='font-semibold' href="">Kid</Link>
-            <Link to="/about" className='font-semibold text-gray-500' href="">About</Link>
-            <Link to="/Contectus" className='font-semibold text-gray-500' href="">Contact</Link>
-        </div>
-        <div className='flex items-center space-x-5 '>
-            <div className='relative max-sm:hidden'>
-                <input type="text" placeholder='Search Items'   className=' border pl-7 h-8 rounded-2xl bg-gray-200' />
-                <FontAwesomeIcon className='absolute left-2 top-2' icon={faMagnifyingGlass} />
-                
-            </div>
-            <div className='space-x-4'>
+            Home
+          </Link>
+          <Link
+            to="/men"
+            className="font-semibold hover:text-red-600 hover:underline underline-offset-4 hover:-translate-y-1 transition-all duration-300"
+            href=""
+          >
+            Men
+          </Link>
+          <Link
+            to="/women"
+            className="font-semibold hover:text-red-600 hover:underline underline-offset-4 hover:-translate-y-1 transition-all duration-300"
+            href=""
+          >
+            Women
+          </Link>
+          <Link
+            to="/Kids"
+            className="font-semibold hover:text-red-600 hover:underline underline-offset-4 hover:-translate-y-1 transition-all duration-300"
+            href=""
+          >
+            Kid
+          </Link>
+          <Link
+            to="/about"
+            className="font-semibold text-gray-500 hover:text-red-600 hover:underline underline-offset-4 hover:-translate-y-1 transition-all duration-300"
+            href=""
+          >
+            About
+          </Link>
+          <Link
+            to="/Contectus"
+            className="font-semibold text-gray-500 hover:text-red-600 hover:underline underline-offset-4 hover:-translate-y-1 transition-all duration-300"
+            href=""
+          >
+            Contact
+          </Link>
+       </div>
+        <div className="flex items-center gap-4 max-lg:ml-44 max-sm:ml-56  ">
+          <div className="relative max-sm:hidden ">
+            <input
+              type="text"
+              placeholder="Search Items"
+              className=" border pl-7 h-8 rounded-2xl bg-gray-200"
+            />
+            <FontAwesomeIcon
+              className="absolute left-2 top-2"
+              icon={faMagnifyingGlass}
+            />
+          </div>
+          <div className="space-x-4 ">
             <FontAwesomeIcon icon={faHeart} />
             <FontAwesomeIcon icon={faBagShopping} />
-            <button
-            onClick={() => setIsOpen(!isOpen)}
-            className=" hover:text-red-600 hover:scale-110 transition-all duration-300 hidden max-lg:inline-block"
-          >
-            <FontAwesomeIcon icon={faBars} />
-          </button>
-            </div>
-        </div>
-      </section>
-
-
-
-      <div className="2xl:hidden xl:hidden " ref={node}>
-        {isOpen && (
-          <div
-            className={`grid grid-cols-1 absolute z-10 bg-zinc-200 w-60 h-96 items-center text-center rounded-xl top-2  font-semibold right-4 ${
-              isOpen ? "block" : "hidden"
-            } `}
-          >
+            <Link to="/signupone">
+              <FontAwesomeIcon icon={faUser} />
+            </Link>
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-red-600 font-semibold text-2xl hover:text-blue-500 hover:scale-125 -mb-5 transition-all duration-500"
+              className=" hover:text-red-600 hover:scale-110 transition-all duration-300 hidden max-lg:inline-block"
             >
-              Close
+              <FontAwesomeIcon icon={faBars} />
             </button>
-
-            <hr className="bg-black h-[2px] " />
-
-            <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
-              <Link to="/">Home</Link>
-            </a>
-
-            <div className="dropdown inline-block relative">
-              <button className=" hover:text-red-600 hover:scale-125 transition-all duration-300">
-                Product
-              </button>
-              <div className="dropdown-content absolute z-10 min-w-24  bg-slate-300 text-white hidden rounded  text-center">
-                <a className="" href="#">
-                  Link 1
-                </a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-              </div>
-            </div>
-
-            <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
-              <Link to> Service </Link>
-            </a>
-            <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
-              <Link to="/About"> About </Link>
-            </a>
-            <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
-              <Link to> Contect Us </Link>
-            </a>
           </div>
-        )}
-      </div>
+        </div>
+
+        <div className="2xl:hidden xl:hidden " ref={node}>
+          {isOpen && (
+            <div
+              className={`grid grid-cols-1 absolute z-10 bg-zinc-200 w-60 h-96 items-center text-center rounded-xl top-2  font-semibold right-4 ${
+                isOpen ? "block" : "hidden"
+              } `}
+            >
+              <button
+                onClick={() => setIsOpen(!isOpen)}
+                className="text-red-600 font-semibold text-2xl hover:text-blue-500 hover:scale-125 -mb-5 transition-all duration-500"
+              >
+                Close
+              </button>
+
+              <hr className="bg-black h-[2px] " />
+
+              <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
+                <Link to="/">Home</Link>
+              </a>
+
+              <div className="dropdown inline-block relative">
+                <button className=" hover:text-red-600 hover:scale-125 transition-all duration-300">
+                  Product
+                </button>
+                <div className="dropdown-content absolute z-10 min-w-24  bg-slate-300 text-white hidden rounded  text-center">
+                  <a className="" href="#">
+                    Link 1
+                  </a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+
+              <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
+                <Link to> Service </Link>
+              </a>
+              <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
+                <Link to="/About"> About </Link>
+              </a>
+              <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
+                <Link to> Contect Us </Link>
+              </a>
+            </div>
+          )}
+        </div>
+      </section>
     </>
   );
 };

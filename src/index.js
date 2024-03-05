@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import About from './About/About';
-import Services from './Components/Service/Services';
 import Contectus from './Components/Contectus/Contectus';
 import Mens from './Components/Men/Mens';
 import Kids from './Components/Kids/Kids';
@@ -25,10 +24,6 @@ const router = createBrowserRouter(
     {
       path:"/about",
       element:<About />,
-    },
-    {
-      path:"/services",
-      element:<Services/>,
     },
     {
       path:"/contectus",
