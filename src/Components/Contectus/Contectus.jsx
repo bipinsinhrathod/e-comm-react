@@ -11,8 +11,9 @@ const Contectus = () => {
     <>
       <Navbar />
 
-      <div className="grid place-content-center text-[40px] p-10 bg-gray-300">
-        <h1>Contact Us</h1>
+      <div className="aboutbanner text-white flex flex-col justify-center items-center p-20">
+        <h1 className="text-7xl font-semibold" >#ContactUs</h1>
+        <p>LEAVE A MESSAGE. We love to hear from you !</p>
       </div>
 
 <div className="grid grid-cols-2">

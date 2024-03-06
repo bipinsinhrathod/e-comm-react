@@ -37,11 +37,14 @@ const Navbar = () => {
 
       <section className="flex justify-evenly items-center shadow-xl border h-16 max-lg:justify-between max-lg:px-8 max-sm:px-10 sticky top-0 z-10 bg-white">
         <div className="flex items-center">
+        <Link to="/">
+
           <img
             className="w-16 scale-125 cursor-pointer hover:scale-150 transition-all duration-300  "
             src={logo}
             alt=""
           />
+        </Link>
         </div>
         <div className="flex space-x-8  ml-60 max-xl:ml-0 max-lg:hidden ">
           <Link

@@ -60,7 +60,7 @@ export const OurTeamCard = ({ ourTeam }) => (
 function Team() {
   return (
     <>
-      <div className="flex gap-10">
+      <div className="flex flex-wrap justify-center gap-10">
         {ourTeam.map((teamMember) => (
           <OurTeamCard key={teamMember.id} ourTeam={teamMember} />
         ))}
