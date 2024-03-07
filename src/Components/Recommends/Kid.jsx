@@ -9,16 +9,17 @@ const Kids = () => {
         <h1>We Recommend For Kid's</h1>
       </div>
 
-      <div className="grid grid-cols-3 place-items-center m-12 max-xl:grid-cols-2 max-lg:grid-cols-1 max-lg:space-y-10">
-        <div className="grid grid-cols-2 place-items-center gap-6 max-lg:gap-x-28 max-sm:gap-x-10">
+      <div className="grid grid-cols-3 place-items-center m-12
+      max-sm:mx-5 max-xl:grid-cols-2 max-lg:grid-cols-1 max-lg:space-y-8">
+        <div className="grid grid-cols-2 place-items-center gap-6 max-lg:gap-x-14 max-sm:gap-x-4">
           {RecommendForKids.map((item) => {
             return (
               <div className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden ">
                 <div className="overflow-hidden">
                   <Link to={`/productoverview/${item.id}?type=recomended-kid`}>
                     <img
-                      width={"190px"}
-                      className="h-[200px] object-cover hover:scale-105 transition-all duration-500"
+                      // width={"190px"}
+                      className="h-[200px] w-56 object-cover hover:scale-105 transition-all duration-500"
                       src={item.imgUrl}
                       alt=""
                     />
@@ -26,9 +27,9 @@ const Kids = () => {
                 </div>
 
                 <div className="text-center mt-1">
-                  <p className="text-xl font-semibold">{item.Ptitle}</p>
+                  <p className="text-xl font-semibold max-sm:text-base">{item.Ptitle}</p>
                   <p className="text-sm">{item.Pltitle}</p>
-                  <p className="text-lg font-semibold">
+                  <p className="text-lg font-semibold max-sm:text-base">
                     ₹{item.Pprice}
                     <span className="text-gray-500">
                       {" "}
@@ -43,7 +44,7 @@ const Kids = () => {
 
 
 
-        <div className=" relative border border-gray-200 w-[100%] max-[1350px]:w-[90%] max-xl:w-[100%] hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden max-lg:w-[70%] max-sm:w-[90%]">
+        <div className=" relative border border-gray-200 w-[90%] max-xl:w-[100%] hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden max-lg:w-[70%] max-sm:w-[90%]">
           <img
             width={"100%"}
             className=" hover:scale-105 transition-all duration-500"
@@ -56,15 +57,15 @@ const Kids = () => {
           </button>
         </div>
 
-        <div className="grid grid-cols-2 place-items-center gap-6 max-xl:hidden max-lg:grid max-lg:gap-x-28 max-sm:gap-x-10">
+        <div className="grid grid-cols-2 place-items-center gap-6 max-xl:hidden max-lg:grid max-lg:gap-x-14 max-sm:gap-x-4">
           {RecommendForKids1.map((item, index) => {
             return (
               <div className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden">
                   <Link to={`/productoverview/${item.id}?type=recomended-kid2`}>
                 <div className="overflow-hidden">
                     <img
-                      width={"190px"}
-                      className="h-[200px] object-cover  hover:scale-105 transition-all duration-500"
+                      // width={"190px"}
+                      className="h-[200px] w-56 object-cover  hover:scale-105 transition-all duration-500"
                       src={item.imgUrl}
                       alt=""
                     />
@@ -72,9 +73,9 @@ const Kids = () => {
                   </Link>
 
                 <div className="text-center mt-1">
-                  <p className="text-xl font-semibold">{item.Ptitle}</p>
+                  <p className="text-xl font-semibold max-sm:text-base">{item.Ptitle}</p>
                   <p className="text-sm">{item.Pltitle}</p>
-                  <p className="text-lg font-semibold">
+                  <p className="text-lg font-semibold max-sm:text-base">
                     ₹{item.Pprice}
                     <span className="text-gray-500">
                       {" "}

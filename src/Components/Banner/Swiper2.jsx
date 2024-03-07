@@ -98,10 +98,10 @@ const SwipeImg = [
 const Swiper2 = () => {
   return (
     <>
-    <div className="flex justify-center items-center font-bold text-4xl mt-10 underline underline-offset-[20px]">
+    <div className="flex justify-center items-center font-bold text-4xl mt-10 underline underline-offset-[20px] max-md:text-3xl">
         <h1>New Arrivals</h1>
       </div>
-    <div className="m-12">
+    <div className="m-12 max-xl:m-8 max-sm:m-4 max-sm:my-10">
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -131,9 +131,9 @@ const Swiper2 = () => {
             return(
                 <>
                 <SwiperSlide className="">
-                    <div className="border border-gray-400 transition-all duration-300 hover:shadow-2xl shadow-gray-300">
+                    <div className="border border-gray-400 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-2xl shadow-gray-300">
                         <div className="overflow-hidden ">
-                            <img className="w-full h-[400px] object-cover hover:scale-105 transition-all duration-500" src={item.imgUrl} alt="" />
+                            <img className="w-full h-[400px] object-cover hover:scale-105 transition-all duration-500 max-sm:h-[350px]" src={item.imgUrl} alt="" />
                         </div>
                         <div className="flex flex-col flex-wrap items-center m-1 text-center space-y-3 p-2 ">
                           <h1 className="font-bold text-2xl">{item.Ptitle}</h1>  

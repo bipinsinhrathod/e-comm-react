@@ -78,7 +78,7 @@ export const RecommendForMen = [
     ],
     Ptitle: "Air jorden PE",
     Pltitle: "Men's Shoes",
-    Pprice: "2400",
+    Pprice: "12,995.00",
   },
 ];
 
@@ -132,7 +132,7 @@ export const RecommendForMen2 = [
       ],
     Ptitle: "Air Legacy Low ",
     Pltitle: "Men's Shoes",
-    Pprice: "12,795.00",
+    Pprice: "12,795.0",
   },
   {
     id: 8,
@@ -147,7 +147,7 @@ export const RecommendForMen2 = [
         "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d0ce50c6-c640-458c-9614-437100493343/luka-2-pf-basketball-shoes-LM9ScX.png"
   
       ],
-    Ptitle: "Luka 2 PF",
+    Ptitle: "Luka 2 PF high",
     Pltitle: "Men's Shoes",
     Pprice: "11,885.00",
   },
@@ -489,7 +489,7 @@ export const ManAllProducts = [
         "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/eacbf5cf-1ce8-4efa-9c43-b4c24ac49c66/air-jordan-1-low-g-golf-shoes-8bKbqs.png"
   
       ],
-    Ptitle: "Nike Air Force 1 07 LV8",
+    Ptitle: "Nike Air Force 1",
     Pltitle: "Men's Shoes",
     Pdetails:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil voluptatum alias fugiat, eveniet similique quam eius illo nobis quaerat ipsam aliquid nam mollitia laboriosam. Voluptate et corrupti exercitationem deserunt eveniet veli.",
@@ -527,7 +527,7 @@ export const ManAllProducts = [
 
     ],
 
-    Ptitle: "Nike Air Force 1 '07",
+    Ptitle: "Nike Air Force 1'07",
     Pltitle: "Men's Shoes",
     Pprice: "7,495.00",
   },
@@ -545,7 +545,7 @@ export const ManAllProducts = [
         "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9336cfd0-d507-4e4c-9d24-a6e78edd39a9/air-force-1-07-lv8-shoes-lPdFPQ.png"
   
       ],
-    Ptitle: "Nike Air Force 1 '07 LV8",
+    Ptitle: "Nike Air Force 1 LV8",
     Pltitle: "Men's Shoes",
     Pprice: "10,795.00",
   },
@@ -667,7 +667,7 @@ export const ManAllProducts = [
         "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/373295c2-beab-4c01-ac96-851506bece57/air-force-1-07-lv8-shoes-lPdFPQ.png"
   
       ],
-    Ptitle: "Nike Air Force 1 '07 LV8",
+    Ptitle: "Nike Air '07 LV8",
     Pltitle: "Men's Shoes",
     Pprice: " 10,795.00",
   },
@@ -685,7 +685,7 @@ export const ManAllProducts = [
         "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/09aa172c-e8a6-4239-b5da-73d01709b04e/air-jordan-legacy-312-low-shoes-v3FcRT.png"
   
       ],
-    Ptitle: "Air Jordan Legacy 312 Low",
+    Ptitle: "Air Jordan Legacy",
     Pltitle: "Men's Shoes",
     Pprice: " 14,195.00",
   },

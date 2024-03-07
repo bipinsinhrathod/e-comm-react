@@ -35,8 +35,8 @@ const Navbar = () => {
     <>
       <Offer />
 
-      <section className="flex justify-evenly items-center shadow-xl border h-16 max-lg:justify-between max-lg:px-8 max-sm:px-10 sticky top-0 z-10 bg-white">
-        <div className="flex items-center">
+      <section className="flex justify-evenly items-center shadow-xl border h-16 sticky top-0 z-10 bg-white">
+        <div className="flex items-center max-sm:ml-3">
         <Link to="/">
 
           <img
@@ -90,7 +90,7 @@ const Navbar = () => {
             Contact
           </Link>
        </div>
-        <div className="flex items-center gap-4 max-lg:ml-44 max-sm:ml-56  ">
+        <div className="flex items-center gap-2 max-lg:ml-44 max-sm:ml-44  ">
           <div className="relative max-sm:hidden ">
             <input
               type="text"

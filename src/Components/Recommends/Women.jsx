@@ -5,12 +5,12 @@ import { RecommendForWomen, RecommendForWomen2 } from "../Data/AllData";
 const Women = () => {
   return (
     <>
-      <div className="flex justify-center  items-center bg-gray-200 text-4xl font-bold p-5  -mb-6 max-lg:text-3xl max-md:text-2xl">
+      <div className="flex justify-center items-center text-center bg-gray-200 text-4xl font-bold p-5  -mb-6 max-lg:text-3xl max-md:text-2xl">
         <h1>We Recommend For Women's</h1>
       </div>
 
-      <div className="grid grid-cols-3 place-items-center m-12 max-xl:grid-cols-2 max-lg:grid-cols-1 max-lg:space-y-10">
-        <div className="grid grid-cols-2 place-items-center mr-4 gap-8 max-lg:gap-x-28 max-sm:gap-x-10 max-lg:m-0 ">
+      <div className="grid grid-cols-3 place-items-center m-12 max-sm:mx-5 max-xl:grid-cols-2 max-lg:grid-cols-1 max-lg:space-y-10">
+        <div className="grid grid-cols-2 place-items-center mr-4 gap-6 max-lg:gap-x-14 max-sm:gap-x-4 max-lg:m-0 ">
           {RecommendForWomen.map((item, index) => {
             return (
               <div className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden ">
@@ -19,8 +19,8 @@ const Women = () => {
                     to={`/productoverview/${item.id}?type=recomended-women`}
                   >
                     <img
-                      width={"190px"}
-                      className="h-[200px] object-cover hover:scale-105 transition-all duration-500"
+                      // width={"190px"}
+                      className="h-[200px] w-56 object-cover hover:scale-105 transition-all duration-500"
                       src={item.imgUrl}
                       alt=""
                     />
@@ -28,9 +28,9 @@ const Women = () => {
                 </div>
 
                 <div className="text-center mt-1">
-                  <p className="text-xl font-semibold">{item.Ptitle}</p>
+                  <p className="text-xl font-semibold max-sm:text-base">{item.Ptitle}</p>
                   <p className="text-sm">{item.Pltitle}</p>
-                  <p className="text-lg font-semibold">
+                  <p className="text-lg font-semibold max-sm:text-base">
                     ₹{item.Pprice}
                     <span className="text-gray-500">
                       {" "}
@@ -43,15 +43,15 @@ const Women = () => {
           })}
         </div>
 
-        <div className="grid grid-cols-2 place-items-center gap-8 max-lg:gap-x-28 max-lg:ml-[2px] max-sm:gap-x-10">
+        <div className="grid grid-cols-2 place-items-center gap-6 max-lg:gap-x-14 max-lg:ml-[2px] max-sm:gap-x-4">
           {RecommendForWomen2.map((item) => {
             return (
               <div className="border border-gray-200 hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden">
                 <div className="overflow-hidden">
                   <Link to={`/productoverview/${item.id}?type=recomended-women2`}>
                     <img
-                      width={"190px"}
-                      className="h-[200px] object-cover  hover:scale-105 transition-all duration-500"
+                      // width={"190px"}
+                      className="h-[200px] w-56 object-cover  hover:scale-105 transition-all duration-500"
                       src={item.imgUrl}
                       alt=""
                     />
@@ -59,9 +59,9 @@ const Women = () => {
                 </div>
 
                 <div className="text-center mt-1">
-                  <p className="text-xl font-semibold">{item.Ptitle}</p>
+                  <p className="text-xl font-semibold max-sm:text-base">{item.Ptitle}</p>
                   <p className="text-sm">{item.Pltitle}</p>
-                  <p className="text-lg font-semibold">
+                  <p className="text-lg font-semibold max-sm:text-base">
                     ₹{item.Pprice}
                     <span className="text-gray-500">
                       {" "}
@@ -74,7 +74,7 @@ const Women = () => {
           })}
         </div>
 
-        <div className=" relative border border-gray-200  w-[100%] hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden max-lg:w-[70%] max-sm:w-[90%] max-[1440px]:ml-10 max-xl:ml-0 max-xl:hidden max-lg:grid">
+        <div className=" relative border border-gray-200 ml-6 w-[95%] hover:shadow-2xl shadow-gray-200 transition-all duration-300 overflow-hidden max-lg:w-[70%] max-sm:w-[90%] max-xl:ml-0 max-xl:hidden max-lg:grid">
           <img
             width={"100%"}
             className=" hover:scale-105 transition-all duration-500"

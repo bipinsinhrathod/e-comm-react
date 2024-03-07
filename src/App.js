@@ -16,7 +16,7 @@ function App() {
     
       <Navbar />
       <NewBanner/>
-      <Favorites />
+      {/* <Favorites /> */}
       <Banner1 />
       <Swiper2/>
       <Recommend/>
