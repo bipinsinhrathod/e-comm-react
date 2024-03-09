@@ -20,11 +20,11 @@ const Offers = () => {
   return (
     <>
       <section className='mb-5'>
-        <div className='grid grid-cols-2'>
+        <div className='grid grid-cols-2 max-md:grid-cols-1'>
             <div className=''>
                 <img src={b1} alt="" />
             </div>
-            <div className='blank'>
+            <div className='blank max-md:hidden'>
             <Swiper    effect={'flip'}
         grabCursor={true}
         modules={[EffectFlip,Autoplay]}
