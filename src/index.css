@@ -23,3 +23,14 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.offerbanner {
+    background-image: url(./Assests/Offer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blank{
+    background-image: url(./Assests/Blank.png);
+}
