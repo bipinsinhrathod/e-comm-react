@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className="grid grid-cols-4 justify-around bg-gray-800 text-white py-20 mt-10 max-[970px]:grid-cols-2 max-sm:grid-cols-1  ">
+      <div className="footer grid grid-cols-4 justify-around text-white py-20 mt-1 max-[970px]:grid-cols-2 max-sm:grid-cols-1  ">
         <div className="flex flex-col justify-center items-center w-30 ">
           <img
             className=" hover:scale-125 transition-all duration-700"

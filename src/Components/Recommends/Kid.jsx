@@ -5,7 +5,7 @@ import { RecommendForKids, RecommendForKids1 } from "../Data/AllData";
 const Kids = () => {
   return (
     <>
-      <div className="flex justify-center items-center text-4xl bg-gray-200 font-bold p-5 -mb-6 max-lg:text-3xl max-md:text-2xl">
+      <div className="offerbanner text-white flex justify-center items-center text-4xl bg-gray-200 font-bold p-5 -mb-6 max-lg:text-3xl max-md:text-2xl">
         <h1>We Recommend For Kid's</h1>
       </div>
 

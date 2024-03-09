@@ -16,7 +16,7 @@ import b1 from "../../Assests/nnnnnnnnnn.png"
 import { MainBannerImg } from '../Data/AllData';
 
 
-const Offers = () => {
+const OffersForWomen = () => {
   return (
     <>
       <section className='mb-5'>
@@ -47,4 +47,4 @@ const Offers = () => {
   )
 }
 
-export default Offers
+export default OffersForWomen

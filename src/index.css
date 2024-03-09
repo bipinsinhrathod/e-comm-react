@@ -34,3 +34,24 @@
 .blank{
     background-image: url(./Assests/Blank.png);
 }
+
+.banner1{
+    background-image: url(./Assests/b1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.newsLetter {
+    background-image: url(./Assests/b14.png);
+    background-position: 20% 30% ;
+    background-repeat: no-repeat;
+    background-color: #041e42;
+
+}
+
+.footer {
+    background-image: url(./Assests//b14.png);
+    background-position: 20%;
+    background-color: #041e42;
+}
