@@ -23,7 +23,7 @@ function App() {
       <Banner1 />
       <Swiper2/>
       <OfferBanner/>
-      <OffersForWomen/>
+      {/* <OffersForWomen/> */}
       <Recommend/>
       <NewsLetter/>
       <Footer /> 

@@ -9,6 +9,9 @@ import Phone from "../../Assests/phone-call.png";
 import Mail from "../../Assests/gmail.png";
 import Arrow from "@mui/icons-material/KeyboardArrowRight";
 import { Link } from "react-router-dom";
+import appstore from "../../Assests/AppStoreIcon.png"
+import playstore from "../../Assests/logogoogleplay.png"
+import pay from "../../Assests/pay.png"
 
 
 const Footer = () => {
@@ -114,29 +117,23 @@ const Footer = () => {
         </div>
         <div className="grid  place-items-center">
           <h1 className="text-2xl hover:scale-105 transition-all duration-500 cursor-pointer max-[1315px]:w-[80%] max-[1315px]:text-center max-[970px]:mt-10 max-[970px]:text-center">
-            Subscribe To Our NewsLetter
+            Install Our App 
           </h1>
-          <form className="my-5">
-            <input
-              className="h-10 w-80 text-center transition-all hover:scale-105 duration-300 rounded-md max-[1315px]:w-[200px]"
-              placeholder=" Enter your email "
-              type="email"
-              id="email"
-              name="email"
-            />
-          </form>
+           <p>From App Store or Google Play Store</p>
+           <div className="flex">
+            <img className="w-40" src={appstore} alt="" />
+            <img className="w-40" src={playstore} alt="" />
+           </div>
+           <p>Secured Payment Gateways</p>
 
-          <button
-            className="text-black font-semibold mt-3 transition-all hover:scale-105 duration-300 hover:shadow-gray-400 shadow-2xl  max-[1315px]:w-20  max-[1315px]:h-7 max-[1315px]:-mt-2 max-[1315px]:text-sm  bg-green-400 w-28 rounded-xl h-10"
-            type="submit"
-          >
-            Subscribe
-          </button>
+           <img src={pay} alt="" />
+
+         
         </div>
       </div>
 
       <hr />
-      <div className="flex justify-center items-center bg-gray-800 text-white p-3">
+      <div className="footer flex justify-center items-center text-white p-3">
         <h1>Thank You For Visiting Our Website ! </h1>
       </div>
     </>
