@@ -17,6 +17,7 @@ import {
   RecommendForKids1,
   ManAllProducts,
   WomenAllProducts,
+  KidsAllProducts,
 } from "../Data/AllData";
 import ProductsDetailsSlider from "./ProductsDetailsSlider";
 
@@ -85,6 +86,13 @@ const ProductOverView = () => {
         setProduct(forWomenAll);
         setSection("Women")
         break;
+        case "kid":
+          const forKidAll = KidsAllProducts?.find(
+            (item) => item.id === parseInt(id)
+          );
+          setProduct(forKidAll);
+          setSection("kid")
+          break;
       default:
         setProduct({});
     }
