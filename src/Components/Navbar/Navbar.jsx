@@ -7,6 +7,7 @@ import {
   faHeart,
   faMagnifyingGlass,
   faUser,
+  faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 
 import { Link } from "react-router-dom";
@@ -35,7 +36,7 @@ const Navbar = () => {
     <>
       <Offer />
 
-      <section className="flex justify-evenly items-center shadow-xl border h-16 sticky top-0 z-10 bg-white">
+      <section className="flex justify-evenly items-center shadow-xl border py-3 sticky top-0 z-10 bg-white">
         <div className="flex items-center max-sm:ml-3">
         <Link to="/">
 
@@ -120,45 +121,28 @@ const Navbar = () => {
         <div className="2xl:hidden xl:hidden " ref={node}>
           {isOpen && (
             <div
-              className={`grid grid-cols-1 absolute z-10 bg-zinc-200 w-60 h-96 items-center text-center rounded-xl top-2  font-semibold right-4 ${
+              className={`flex flex-col absolute z-10 bg-zinc-200 w-full h-[100vh] items-center text-center top-0  font-semibold right-0 ${
                 isOpen ? "block" : "hidden"
               } `}
             >
-              <button
+              {/* <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="text-red-600 font-semibold text-2xl hover:text-blue-500 hover:scale-125 -mb-5 transition-all duration-500"
+                className="text-red-600 font-semibold text-2xl hover:text-blue-500 hover:scale-125 transition-all duration-500"
               >
-                Close
-              </button>
+                
+              </button> */}
+              <FontAwesomeIcon icon={faXmark} className="absolute right-10 top-5 text-3xl cursor-pointer hover:text-red-600 hover:scale-125 transition-all duration-300" onClick={() => setIsOpen(!isOpen)}/>
 
-              <hr className="bg-black h-[2px] " />
 
-              <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
-                <Link to="/">Home</Link>
-              </a>
-
-              <div className="dropdown inline-block relative">
-                <button className=" hover:text-red-600 hover:scale-125 transition-all duration-300">
-                  Product
-                </button>
-                <div className="dropdown-content absolute z-10 min-w-24  bg-slate-300 text-white hidden rounded  text-center">
-                  <a className="" href="#">
-                    Link 1
-                  </a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
+                <div className="flex flex-col items-center space-y-10 py-20">
+                <Link className="hover:text-red-600 text-red-700 font-bold text-2xl hover:scale-125 transition-all duration-500" to="/">Home</Link>
+                <Link className="hover:text-red-600 hover:scale-150 transition-all duration-500" to="/men">Man's</Link>
+                <Link className="hover:text-red-600 hover:scale-150 transition-all duration-500" to="/women">Women's</Link>
+                <Link className="hover:text-red-600 hover:scale-150 transition-all duration-500" to="/kids">Kid's</Link>
+                <Link  className="hover:text-red-600 hover:scale-150 transition-all duration-500" to="/About"> About </Link>    
+                <Link  className="hover:text-red-600 hover:scale-150 transition-all duration-500" to ="/ContectUs">Contect Us</Link>
                 </div>
-              </div>
-
-              <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
-                <Link to> Service </Link>
-              </a>
-              <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
-                <Link to="/About"> About </Link>
-              </a>
-              <a className="hover:text-red-600 hover:scale-150 transition-all duration-500">
-                <Link to> Contect Us </Link>
-              </a>
+              
             </div>
           )}
         </div>
