@@ -182,7 +182,7 @@ const ProductOverView = () => {
 
           <div className="space-y-3 max-sm:grid">
             <span></span>
-            <Link to={`/addtocart/${product?.id}`}>
+            <Link to={`/cart/${product?.id}?type=men`}>
               <button className="border-2 border-black font-bold w-44 h-11 rounded-xl pt-1 max-sm:w-full ">
                 <ShoppingCartOutlined className="mb-1 scale-90" /> Add to cart
               </button>

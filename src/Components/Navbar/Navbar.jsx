@@ -16,7 +16,7 @@ import Offer from "./Offer";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const node = useRef();
+  const node = useRef(); 
 
   const handleClickOutside = (e) => {
     if (node.current.contains(e.target)) {
@@ -105,7 +105,9 @@ const Navbar = () => {
           </div>
           <div className="space-x-4 ">
             <FontAwesomeIcon icon={faHeart} />
+            <Link to="/cart">
             <FontAwesomeIcon icon={faBagShopping} />
+            </Link>
             <Link to="/signupone">
               <FontAwesomeIcon icon={faUser} />
             </Link>

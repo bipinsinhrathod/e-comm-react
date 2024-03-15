@@ -27,6 +27,7 @@ function App() {
       <Recommend/>
       <NewsLetter/>
       <Footer /> 
+      
     
 
     </>

@@ -1,183 +1,201 @@
-// import { Heart, Trash } from 'lucide-react'
-import React from 'react'
-import { useParams } from 'react-router-dom';
-import { ManAllProducts } from '../Data/AllData';
+import React, { useEffect, useState } from "react";
+import Navbar from "../Navbar/Navbar";
+import {
+  FavoriteBorderOutlined,
+  DeleteOutlined,
+  Star,
+} from "@mui/icons-material/";
+import { useParams ,Location, useLocation } from "react-router-dom";
+import { ManAllProducts, WomenAllProducts } from "../Data/AllData";
+// import { ManAllProducts } from "../Data/AllData";
+
+const AddToCart = () => {
+    // const {id} = useParams(); 
+
+    // const product = ManAllProducts.find((item)=>item.id===parseInt(id));
+
+    // if (!product){
+    //     return <div>No product found with the specified ID</div>
+    // }
+
+    // const {imgUrl, Ptitle , Pprice} = product;
+
+    const {id} = useParams();
+    const {search} = useLocation();
+    const [product , setProduct] = useState([]);
+    // const [section , setSection] = useState();
+    const productType = new URLSearchParams(search).get("type");
+
+    useEffect(() =>{
+      switch (productType) {
+        case "men": 
+        const forMen = ManAllProducts?.find(
+          (item) => item.id === parseInt(id)
+        );
+        setProduct(forMen);
+        break;
+
+        case "women" : 
+        const forWomen = WomenAllProducts?.find(
+          (item) => item.id === parseInt(id)
+        );
+        setProduct(forWomen);
+        break;
+
+      }
+    }, []);
 
 
-const products = [
-  {
-    id: 1,
-    name: 'Nike Air Force 1 07 LV8',
-    href: '#',
-    price: '₹47,199',
-    originalPrice: '₹48,900',
-    discount: '5% Off',
-    color: 'Orange',
-    size: '8 UK',
-    imageSrc:
-      'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/54a510de-a406-41b2-8d62-7f8c587c9a7e/air-force-1-07-lv8-shoes-9KwrSk.png',
-  },
-  {
-    id: 2,
-    name: 'Nike Blazer Low 77 SE',
-    href: '#',
-    price: '₹1,549',
-    originalPrice: '₹2,499',
-    discount: '38% off',
-    color: 'White',
-    leadTime: '3-4 weeks',
-    size: '8 UK',
-    imageSrc:
-      'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e48d6035-bd8a-4747-9fa1-04ea596bb074/blazer-low-77-se-shoes-0w2HHV.png',
-  },
-  {
-    id: 3,
-    name: 'Nike Air Max 90',
-    href: '#',
-    price: '₹2219 ',
-    originalPrice: '₹999',
-    discount: '78% off',
-    color: 'Black',
-    imageSrc:
-      'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fd17b420-b388-4c8a-aaaa-e0a98ddf175f/dunk-high-retro-shoe-DdRmMZ.png',
-  },
-]
 
-export function Cart() {
 
-    const { id  } = useParams();
-  const product = ManAllProducts.find((item) =>item.id === parseInt(id));
+  return !product ? (
+    <div>No product find </div>
 
-  // Check if product exists before attempting to destructure its properties
-  if (!product) {
-    return <div>No product found with the specified ID</div>;
-  }
-
-  const { imgUrl, Ptitle, Pltitle, Pprice ,price, originalPrice,discount,color } = product;
-
-  return (
-    <div className="mx-auto max-w-7xl px-2 lg:px-0">
-      <div className="mx-auto max-w-2xl py-8 lg:max-w-7xl">
-        <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          Shopping Cart
-        </h1>
-        <form className="mt-12 lg:grid lg:grid-cols-12 lg:items-start lg:gap-x-12 xl:gap-x-16">
-          <section aria-labelledby="cart-heading" className="rounded-lg bg-white lg:col-span-8">
-            <h2 id="cart-heading" className="sr-only">
-              Items in your shopping cart
-            </h2>
-            <ul role="list" className="divide-y divide-gray-200">
-              {/* {products.map((product, productIdx) => ( */}
-                <div     className="">
-                  <li className="flex py-6 sm:py-6 ">
-                    <div className="flex-shrink-0">
-                      <img
-                        src={imgUrl}
-                        alt={Ptitle}
-                        className="sm:h-38 sm:w-38 h-24 w-24 rounded-md object-contain object-center"
-                      />
-                    </div>
-
-                    <div className="ml-4 flex flex-1 flex-col justify-between sm:ml-6">
-                      <div className="relative pr-9 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:pr-0">
-                        <div>
-                          <div className="flex justify-between">
-                            <h3 className="text-sm">
-                              <a href={product.href} className="font-semibold text-black">
-                                {Ptitle}
-                              </a>
-                            </h3>
-                          </div>
-                          <div className="mt-1 flex text-sm">
-                            <p className="text-sm text-gray-500">{color}</p>
-                            {product.size ? (
-                              <p className="ml-4 border-l border-gray-200 pl-4 text-sm text-gray-500">
-                                {product.size}
-                              </p>
-                            ) : null}
-                          </div>
-                          <div className="mt-1 flex items-end">
-                            <p className="text-xs font-medium text-gray-500 line-through">
-                              {originalPrice}
-                            </p>
-                            <p className="text-sm font-medium text-gray-900">
-                              &nbsp;&nbsp;{Pprice}
-                            </p>
-                            &nbsp;&nbsp;
-                            <p className="text-sm font-medium text-green-500">{discount}</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <div className="mb-2 flex">
-                    <div className="min-w-24 flex">
-                      <button type="button" className="h-7 w-7">
-                        -
-                      </button>
-                      <input
-                        type="text"
-                        className="mx-1 h-7 w-9 rounded-md border text-center"
-                        defaultValue={1}
-                      />
-                      <button type="button" className="flex h-7 w-7 items-center justify-center">
-                        +
-                      </button>
-                    </div>
-                    <div className="ml-6 flex text-sm">
-                      <button type="button" className="flex items-center space-x-1 px-2 py-1 pl-0">
-                        {/* <Trash size={12} className="text-red-500" /> */}
-                        <span className="text-xs font-medium text-red-500">Remove</span>
-                      </button>
-                    </div>
-                  </div>
+  ) : (
+    <>
+      <Navbar />
+      <section className="flex flex-wrap justify-evenly  ">
+        <div className="flex flex-col mt-16  ">
+          <p className="text-4xl font-semibold ">Bag</p>
+          <div className="flex  space-x-2 ">
+            <div className="">
+              <img
+                className="w-44 h-48 object-cover"
+                src={product?.imgUrl}
+                alt=""
+              />
+            </div>
+            <div className=" space-y-2">
+              <div className="flex justify-between  font-bold">
+                <p>Air Jorden</p>
+                <p>MRP : ₹ {product?.Pprice}</p>
+              </div>
+              <div className="space-y-2">
+                <p>Basket ball shoes</p>
+                <div className="my-4 flex items-center">
+                  <span className="flex items-center space-x-1">
+                    {[...Array(4)].map((_, i) => (
+                      <Star key={i} size={16} className="text-yellow-500" />
+                    ))}
+                    <span className="ml-3 inline-block text-md mt-1 font-semibold">
+                      4 Reviews
+                    </span>
+                  </span>
                 </div>
-              {/* ))} */}
-            </ul>
-          </section>
-          {/* Order summary */}
-          <section
-            aria-labelledby="summary-heading"
-            className="mt-16 rounded-md bg-white lg:col-span-4 lg:mt-0 lg:p-0"
-          >
-            <h2
-              id="summary-heading"
-              className=" border-b border-gray-200 px-4 py-3 text-lg font-medium text-gray-900 sm:p-4"
-            >
-              Price Details
-            </h2>
-            <div>
-              <dl className=" space-y-1 px-2 py-4">
-                <div className="flex items-center justify-between">
-                  <dt className="text-sm text-gray-800">Price (3 item)</dt>
-                  <dd className="text-sm font-medium text-gray-900">₹ 52,398</dd>
-                </div>
-                <div className="flex items-center justify-between pt-4">
-                  <dt className="flex items-center text-sm text-gray-800">
-                    <span>Discount</span>
-                  </dt>
-                  <dd className="text-sm font-medium text-green-700">- ₹ 3,431</dd>
-                </div>
-                <div className="flex items-center justify-between py-4">
-                  <dt className="flex text-sm text-gray-800">
-                    <span>Delivery Charges</span>
-                  </dt>
-                  <dd className="text-sm font-medium text-green-700">Free</dd>
-                </div>
-                <div className="flex items-center justify-between border-y border-dashed py-4 ">
-                  <dt className="text-base font-medium text-gray-900">Total Amount</dt>
-                  <dd className="text-base font-medium text-gray-900">₹ 48,967</dd>
-                </div>
-              </dl>
-              <div className="px-2 pb-4 font-medium text-green-700">
-                You will save ₹ 3,431 on this order
+                <p>Black /Bright gray / Wolf Gray/ White</p>
+              </div>
+              <div className="flex space-x-10">
+                <p className="font-bold">
+                  <select name="" id="" className="w-16">
+                    <option value="">Size</option>
+                    <option value="">Uk 8</option>
+                    <option value="">Uk 9</option>
+                    <option value="">Uk 10</option>
+                  </select>
+                </p>
+                <p className="font-bold">
+                  <select name="" id="" className="w-24">
+                    <option value="">Quantity</option>
+                    <option value="">Qty 1</option>
+                    <option value="">Qty 2</option>
+                    <option value="">Qty 3</option>
+                    <option value="">Qty 4</option>
+                    <option value="">Qty 5</option>
+                  </select>
+                </p>
+              </div>
+              <div className="flex space-x-5">
+                <p>
+                  <FavoriteBorderOutlined />
+                </p>
+                <p>
+                  <DeleteOutlined />
+                </p>
               </div>
             </div>
-          </section>
-        </form>
-      </div>
-    </div>
-  )
-}
+          </div>
+          <hr className="mt-6 mb-4 w-full " />
 
-export default Cart
+          <p className="text-4xl font-semibold ">Favourites</p>
+          <div className="flex justify-center ">
+            <div className="flex   space-x-2">
+              <div className="">
+                <img
+                  className="w-44 h-48 object-cover"
+                  src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/45a514f0-46e0-4838-bb88-6ac46968b0c5/infinity-flow-older-running-shoes-pJFp3m.png"
+                  alt=""
+                />
+              </div>
+              <div className="space-y-2">
+                <div className="flex justify-between font-bold">
+                  <p>Nike impext 4</p>
+                  <p>MRP : ₹ 8500/-</p>
+                </div>
+                <div className="space-y-2">
+                  <p>basket ball shoes</p>
+                  <div className="my-4 flex items-center">
+                    <span className="flex items-center space-x-1">
+                      {[...Array(4)].map((_, i) => (
+                        <Star key={i} size={16} className="text-yellow-500" />
+                      ))}
+                      <span className="ml-3 inline-block text-md mt-1 font-semibold">
+                        4 Reviews
+                      </span>
+                    </span>
+                  </div>
+                  <p>Black /Bright gray / Wolf Gray/ White</p>
+                </div>
+                <div className="flex space-x-10">
+                  <p className="font-bold">
+                    <select name="" id="" className="w-16">
+                      <option value="">Size</option>
+                      <option value="">Uk 8</option>
+                      <option value="">Uk 9</option>
+                      <option value="">Uk 10</option>
+                    </select>
+                  </p>
+                  <p className="font-bold">
+                    <select name="" id="" className="w-24">
+                      <option value="">Quantity</option>
+                      <option value="">Qty 1</option>
+                      <option value="">Qty 2</option>
+                      <option value="">Qty 3</option>
+                      <option value="">Qty 4</option>
+                      <option value="">Qty 5</option>
+                    </select>
+                  </p>
+                </div>
+                <button className="text-sm font-semibold w-32  bg-black h-9 flex items-center justify-center rounded-3xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-green-300 before:to-red-300 hover:text-black before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-md hover:before:left-0 text-white">
+                  Add To Bag{" "}
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className=" flex flex-col mt-16 space-y-3">
+          <p className="text-4xl font-semibold">Summary</p>
+          <div className="flex justify-between">
+            <p>Subtotal </p>
+            <p>₹ 8500</p>
+          </div>
+          <div className="flex justify-between">
+            <p>Estimated Delivery & Handling</p>
+            <p>₹ 1250</p>
+          </div>
+          <hr />
+          <div className="flex justify-between p-2">
+            <p>Total </p>
+            <p>₹ 9480</p>
+          </div>
+          <hr className="h-8" />
+          <button className=" mx-auto text-md font-bold w-[90%]  bg-black h-12 flex items-center justify-center rounded-3xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-green-300 before:to-red-300 hover:text-black before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-md hover:before:left-0 text-white">
+            Member CheckOut
+          </button>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default AddToCart;
