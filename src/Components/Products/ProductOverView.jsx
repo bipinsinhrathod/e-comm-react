@@ -18,6 +18,8 @@ import {
   ManAllProducts,
   WomenAllProducts,
   KidsAllProducts,
+  newArrival,
+  AllProduct,
 } from "../Data/AllData";
 import ProductsDetailsSlider from "./ProductsDetailsSlider";
 
@@ -25,7 +27,7 @@ const ProductOverView = () => {
   const { id } = useParams();
   const { search } = useLocation();
   const [product, setProduct] = useState({});
-  const [section, setSection] = useState()
+  const [section, setSection] = useState();
   const productType = new URLSearchParams(search).get("type");
 
   useEffect(() => {
@@ -33,66 +35,76 @@ const ProductOverView = () => {
       case "recomended":
         const forMen = RecommendForMen?.find(
           (item) => item.id === parseInt(id)
-          );
-          setProduct(forMen);
-          setSection("Men");
+        );
+        setProduct(forMen);
+        setSection("Men");
         break;
       case "recomended-men2":
         const forMen2 = RecommendForMen2?.find(
           (item) => item.id === parseInt(id)
         );
         setProduct(forMen2);
-        setSection("Men")
+        setSection("Men");
         break;
       case "recomended-women":
         const forWomen = RecommendForWomen?.find(
           (item) => item.id === parseInt(id)
         );
         setProduct(forWomen);
-        setSection("Women")
+        setSection("Women");
         break;
       case "recomended-women2":
         const forWomen2 = RecommendForWomen2?.find(
           (item) => item.id === parseInt(id)
         );
         setProduct(forWomen2);
-        setSection("Women")
+        setSection("Women");
         break;
       case "recomended-kid":
         const forKid = RecommendForKids?.find(
           (item) => item.id === parseInt(id)
         );
         setProduct(forKid);
-        setSection("Kid")
+        setSection("Kid");
         break;
       case "recomended-kid2":
         const forKid2 = RecommendForKids1?.find(
           (item) => item.id === parseInt(id)
         );
         setProduct(forKid2);
-        setSection("Kid")
+        setSection("Kid");
         break;
       case "men":
         const forMenAll = ManAllProducts?.find(
           (item) => item.id === parseInt(id)
         );
-        setProduct(forMenAll); 
-        setSection("Men")
+        setProduct(forMenAll);
+        setSection("Men");
         break;
       case "women":
         const forWomenAll = WomenAllProducts?.find(
           (item) => item.id === parseInt(id)
         );
         setProduct(forWomenAll);
-        setSection("Women")
+        setSection("Women");
         break;
-        case "kid":
-          const forKidAll = KidsAllProducts?.find(
-            (item) => item.id === parseInt(id)
-          );
-          setProduct(forKidAll);
-          setSection("kid")
-          break;
+      case "kid":
+        const forKidAll = KidsAllProducts?.find(
+          (item) => item.id === parseInt(id)
+        );
+        setProduct(forKidAll);
+        setSection("kid");
+        break;
+      case "newArrival":
+        const forNewArr = newArrival?.find((item) => item.id === parseInt(id));
+        setProduct(forNewArr);
+        setSection("New");
+        break;
+      case "allproduct":
+        const forAllProduct = AllProduct?.find((item) => item.id === parseInt(id));
+        setProduct(forAllProduct);
+        // setSection("New");
+        break;
       default:
         setProduct({});
     }
@@ -123,14 +135,11 @@ const ProductOverView = () => {
               Home
             </Link>
             <span>/</span>
-            <Link to={`/${section}`}  className="underline underline-offset-8">
+            <Link to={`/${section}`} className="underline underline-offset-8">
               {section}
             </Link>
             <span>/</span>
-            <p className="underline underline-offset-8">
-              
-            </p>
-
+            <p className="underline underline-offset-8"></p>
           </div>
           <p className="text-4xl font-bold max-md:text-3xl">
             {product?.Ptitle}
@@ -182,7 +191,7 @@ const ProductOverView = () => {
 
           <div className="space-y-3 max-sm:grid">
             <span></span>
-            <Link to={`/cart/${product?.id}?type=men`}>
+            <Link to={`/cart/${product?.id}?type=allproduct`}>
               <button className="border-2 border-black font-bold w-44 h-11 rounded-xl pt-1 max-sm:w-full ">
                 <ShoppingCartOutlined className="mb-1 scale-90" /> Add to cart
               </button>

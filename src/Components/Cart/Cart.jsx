@@ -6,19 +6,10 @@ import {
   Star,
 } from "@mui/icons-material/";
 import { useParams ,Location, useLocation } from "react-router-dom";
-import { ManAllProducts, WomenAllProducts } from "../Data/AllData";
-// import { ManAllProducts } from "../Data/AllData";
+import { AllProduct, ManAllProducts, WomenAllProducts } from "../Data/AllData";
+
 
 const AddToCart = () => {
-    // const {id} = useParams(); 
-
-    // const product = ManAllProducts.find((item)=>item.id===parseInt(id));
-
-    // if (!product){
-    //     return <div>No product found with the specified ID</div>
-    // }
-
-    // const {imgUrl, Ptitle , Pprice} = product;
 
     const {id} = useParams();
     const {search} = useLocation();
@@ -40,6 +31,12 @@ const AddToCart = () => {
           (item) => item.id === parseInt(id)
         );
         setProduct(forWomen);
+        break;
+        case "allproduct" : 
+        const forAllProduct = AllProduct?.find(
+          (item) => item.id === parseInt(id)
+        );
+        setProduct(forAllProduct);
         break;
 
       }
@@ -199,3 +196,4 @@ const AddToCart = () => {
 };
 
 export default AddToCart;
+

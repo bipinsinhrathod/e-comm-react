@@ -15,16 +15,24 @@ import Logo from "../Assests/logo4.png"
 import AppStore2 from '../Assests/_AppStore_Icon-p-800.png'
 // import PlayStore from "../Assests/logogoogleplay.png"
 import PlayStore1 from "../Assests/TerzoTempoVillage-Scarica-la-nostra-app-sullPlay-Store-700x350.png"
+import Stores from "../Stores/Stores";
+import aboutbanner from "../Assests/about-banner.png"
 
 const About = () => {
   return (
     <>
       <Navbar />
 
-      <div className="aboutbanner text-white flex flex-col justify-center items-center p-20 max-sm:text-center ">
+      {/* <div className="aboutbanner text-white flex flex-col justify-center items-center p-20 max-sm:text-center ">
         <h1 className="text-7xl font-semibold max-sm:text-6xl">#AboutUs</h1>
         <p>know about us and look that how can we grow up with you all !</p>
-      </div>
+      </div> */}
+
+      <div className="w-full">
+          <img className="w-full" src={aboutbanner} alt="" />
+        </div>
+
+
       <div className="flex px-28">
         <div className=" w-[50%]">
           <img className="pt-20" src={Aboutimg} alt="" />
@@ -68,6 +76,7 @@ const About = () => {
       <div className="flex justify-center items-center ">
         <Team />
       </div>
+        <Stores/>
 
       <div className="grid grid-cols-6 place-items-center pt-10 max-lg:grid-cols-3 max-md:grid-cols-2 max-[500px]:grid-cols-1 max-lg:space-y-5">
         <img

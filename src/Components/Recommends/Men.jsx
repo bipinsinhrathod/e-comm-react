@@ -1,10 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { RecommendForMen, RecommendForMen2 } from "../Data/AllData";
+// import man from "../../Assests/men-product.png"
 
 const Men = () => {
   return (
     <>
+      {/* <div className="w-full mb-5">
+          <img className="w-full" src={man} alt="" />
+        </div> */}
+
       <div className="offerbanner flex justify-center  text-white bg-gray-200  items-center text-4xl font-bold p-5 -mb-6 max-lg:text-3xl max-md:text-2xl">
         <h1>We Recommend For Men's</h1>
       </div>

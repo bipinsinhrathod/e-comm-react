@@ -54,7 +54,7 @@ export function FilterThree() {
           <div>
             {/* <h1 className="text-xl font-bold">Products</h1> */}
           </div>
-          <div className="mt-6 flex items-center  pt-2 md:mt-0 md:space-x-4 justify-center  md:pt-0">
+          <div className="mt- flex items-center  pt- md:mt-0 md:space-x-4 justify-center  md:pt-0">
             <button
               type="button"
               className="hidden items-center rounded-md px-3 py-2 text-sm font-semibold text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black lg:inline-flex"

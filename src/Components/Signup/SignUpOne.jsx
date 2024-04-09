@@ -2,6 +2,7 @@ import { ArrowRight } from '@mui/icons-material'
 import React from 'react'
 import { Link } from "react-router-dom";
 import Navbar from '../Navbar/Navbar';
+import Logo from "../../Assests/logo4.png"
 
 export function SignUpOne() {
   return (
@@ -116,8 +117,8 @@ export function SignUpOne() {
         </div>
         <div className="h-full w-full flex items-center">
           <img
-            className="mx-auto h-[80%] w-[90%] rounded-md object-cover"
-            src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80"
+            className="mx-auto h- w-[80%] rounded-md object-cover"
+            src={Logo}
             alt=""
           />
         </div>

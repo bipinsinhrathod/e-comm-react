@@ -10,6 +10,7 @@ import Footer from "./Components/Footer/Footer";
 import NewsLetter from "./Components/Footer/NewsLetter";
 import Navbar from "./Components/Navbar/Navbar";
 import Recommend from "./Components/Recommends/Recommend";
+import Stores from "./Stores/Stores";
 
 
 
@@ -25,6 +26,7 @@ function App() {
       <OfferBanner/>
       {/* <OffersForWomen/> */}
       <Recommend/>
+      <Stores/>
       <NewsLetter/>
       <Footer /> 
       

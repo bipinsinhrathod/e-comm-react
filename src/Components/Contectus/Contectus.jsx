@@ -5,16 +5,21 @@ import Location from "../../Assests/google-maps.png"
 import Phone from "../../Assests/phone-call.png"
 import Mail from "../../Assests/gmail.png"
 import Contact from  "../../Assests/Contact.jpg"
+import Stores from "../../Stores/Stores";
+import contactbanner from "../../Assests/contact-banner.png"
 
 const Contectus = () => {
   return (
     <>
       <Navbar />
 
-      <div className="aboutbanner text-white flex flex-col justify-center items-center p-20">
+      {/* <div className="aboutbanner text-white flex flex-col justify-center items-center p-20">
         <h1 className="text-7xl font-semibold" >#ContactUs</h1>
         <p>LEAVE A MESSAGE. We love to hear from you !</p>
-      </div>
+      </div> */}
+      <div className="w-full">
+          <img className="w-full" src={contactbanner} alt="" />
+        </div>
 
 <div className="grid grid-cols-2">
       <div className="mx-auto w-[90%]  ">
@@ -56,6 +61,7 @@ const Contectus = () => {
           <iframe className="max-[1400px]:w-[650px] max-xl:w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.773779184891!2d72.53519857793458!3d23.10537565940776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e82df638cac99%3A0xff6323bffd52c2a7!2sPARIVAR%20HOMES%2C%20Gota%2C%20Ahmedabad%2C%20Gujarat%20382481!5e0!3m2!1sen!2sin!4v1706968484788!5m2!1sen!2sin" width="726" height="462"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           
         </div>
+        
 
         <div className="grid grid-cols-1 gap-10 place-items-center p-8 mt-8 ml-14 border-2 border-gray-500 rounded-lg max-xl:ml-0 ">
 
@@ -72,6 +78,7 @@ const Contectus = () => {
         </div>
       </div>
 
+      <Stores/>
       <Footer />
     </>
   );

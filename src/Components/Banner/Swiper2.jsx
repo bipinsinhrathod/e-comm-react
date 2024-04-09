@@ -8,9 +8,12 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
 // import required modules
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 
 import { newArrival } from "../Data/AllData";
+import { Link } from "react-router-dom";
+
+
 
 const SwipeImg = [
     {
@@ -105,9 +108,6 @@ const Swiper2 = () => {
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
-        // pagination={{
-        //   clickable: true,
-        // }}
         breakpoints={{
             640: {
               slidesPerView: 1,
@@ -132,9 +132,11 @@ const Swiper2 = () => {
                 <>
                 <SwiperSlide className="">
                     <div className="border border-gray-400 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-2xl shadow-gray-300">
+                    <Link to={`/productoverview/${item.id}?type=newArrival`}>
                         <div className="overflow-hidden ">
                             <img className="w-full h-[400px] object-cover hover:scale-105 transition-all duration-500 max-sm:h-[350px]" src={item.imgUrl} alt="" />
                         </div>
+                    </Link>
                         <div className="flex flex-col flex-wrap items-center m-1 text-center space-y-3 p-2 ">
                           <h1 className="font-bold text-2xl">{item.Ptitle}</h1>  
                           <hr  className="h-[2px] bg-gray-300 w-[80%]" />
